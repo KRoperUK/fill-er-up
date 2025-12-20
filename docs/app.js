@@ -116,7 +116,8 @@ function initMap() {
     // Center on UK
     map = L.map('map', {
         preferCanvas: false,
-        renderer: L.canvas()
+        renderer: L.canvas(),
+        maxZoom: 14
     }).setView([54.5, -3.5], 6);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -124,8 +125,6 @@ function initMap() {
         maxZoom: 14,
         minZoom: 5
     }).addTo(map);
-
-    map.maxZoom = 14;
 
     // Add locate control
     const locateControl = L.control.locate({
