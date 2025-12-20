@@ -1,0 +1,71 @@
+name: Fetch and Publish Fuel Prices
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run daily at 10:00 AM UTC
+    - cron: '0 10 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6.1.0
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Fetch fuel prices
+        run: |
+          mkdir -p .data
+          python fuel_price_checker.py
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d-%H%M')" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2.5.0
+        with:
+          tag_name: data-${{ steps.date.outputs.date }}
+          name: Fuel Prices - ${{ steps.date.outputs.date }}
+          body: |
+            Automated fuel price data update
+
+            **Timestamp**: ${{ steps.date.outputs.date }}
+            **Trigger**: ${{ github.event_name }}
+          files: |
+            .data/fuel_prices.json
+          draft: false
+          prerelease: false
+
+      - name: Update latest release
+        uses: softprops/action-gh-release@v2.5.0
+        with:
+          tag_name: latest
+          name: Latest Fuel Prices
+          body: |
+            Latest fuel price data (auto-updated)
+
+            **Last Updated**: ${{ steps.date.outputs.date }}
+            **Trigger**: ${{ github.event_name }}
+
+            Download `fuel_prices.json` for the most recent data.
+          files: |
+            .data/fuel_prices.json
+          draft: false
+          prerelease: false
