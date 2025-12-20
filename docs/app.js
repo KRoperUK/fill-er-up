@@ -28,6 +28,7 @@ let currentFilters = {
 let userLocation = null;
 let maxDistance = 3; // miles
 let searchRadiusCircle = null;
+let userMarker = null;
 
 // Initialize the application
 async function init() {
@@ -51,6 +52,41 @@ async function init() {
 
         // Initialize the map
         initMap();
+
+        // Restore saved last location (if any)
+        try {
+            const saved = localStorage.getItem('lastLocation');
+            if (saved) {
+                const obj = JSON.parse(saved);
+                if (obj && obj.lat && obj.lng) {
+                    userLocation = { lat: parseFloat(obj.lat), lng: parseFloat(obj.lng) };
+                    // center map on saved location
+                    map.setView([userLocation.lat, userLocation.lng], obj.zoom || 12);
+
+                    // add persistent marker
+                    userMarker = L.marker([userLocation.lat, userLocation.lng], {
+                        icon: L.icon({
+                            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+                            iconSize: [25, 41],
+                            iconAnchor: [12, 41],
+                            popupAnchor: [1, -34],
+                            shadowSize: [41, 41]
+                        })
+                    }).addTo(map);
+
+                    if (obj.name) {
+                        userMarker.bindPopup(`<strong>${obj.name}</strong>`);
+                        const searchInput = document.getElementById('search-input');
+                        if (searchInput) searchInput.value = obj.name;
+                    }
+
+                    updateSearchRadius();
+                }
+            }
+        } catch (err) {
+            console.warn('Unable to restore lastLocation from localStorage', err);
+        }
 
         // Wait for map to be ready before processing data
         setTimeout(() => {
@@ -103,6 +139,30 @@ function initMap() {
     // Listen for location found event
     map.on('locationfound', (e) => {
         userLocation = e.latlng;
+
+        // Persist last location
+        try {
+            localStorage.setItem('lastLocation', JSON.stringify({ lat: userLocation.lat, lng: userLocation.lng }));
+        } catch (err) {
+            console.warn('Unable to save lastLocation to localStorage', err);
+        }
+
+        // Add or update persistent user marker
+        if (userMarker) {
+            userMarker.setLatLng(userLocation);
+        } else {
+            userMarker = L.marker(userLocation, {
+                icon: L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+            }).addTo(map);
+        }
+
         updateSearchRadius();
         updateCheapestStations();
     });
@@ -167,6 +227,25 @@ function processData(data) {
 
     // Add stations to map
     addStationsToMap(results);
+
+    // If a user location is known (restored or set), update cheapest stations
+    if (userLocation) {
+        // ensure search radius and persistent marker are present
+        updateSearchRadius();
+        if (!userMarker) {
+            userMarker = L.marker([userLocation.lat, userLocation.lng], {
+                icon: L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+            }).addTo(map);
+        }
+        updateCheapestStations();
+    }
 }
 
 // Update summary statistics
@@ -340,31 +419,42 @@ function setupSearch() {
                     // Set user location for cheapest stations calculation
                     userLocation = { lat: lat, lng: lon };
 
+                    // Persist last location with display name and current zoom
+                    try {
+                        localStorage.setItem('lastLocation', JSON.stringify({
+                            lat: lat,
+                            lng: lon,
+                            name: results[0].display_name,
+                            zoom: map.getZoom() || 12
+                        }));
+                    } catch (err) {
+                        console.warn('Unable to save lastLocation to localStorage', err);
+                    }
+
                     // Zoom to location
                     map.setView([lat, lon], 12);
+
+                    // Add or update persistent user marker and show popup
+                    if (userMarker) {
+                        userMarker.setLatLng([lat, lon]);
+                        userMarker.bindPopup(`<strong>${results[0].display_name}</strong>`).openPopup();
+                    } else {
+                        userMarker = L.marker([lat, lon], {
+                            icon: L.icon({
+                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+                                iconSize: [25, 41],
+                                iconAnchor: [12, 41],
+                                popupAnchor: [1, -34],
+                                shadowSize: [41, 41]
+                            })
+                        }).addTo(map);
+                        userMarker.bindPopup(`<strong>${results[0].display_name}</strong>`).openPopup();
+                    }
 
                     // Update search radius and cheapest stations
                     updateSearchRadius();
                     updateCheapestStations();
-
-                    // Add temporary marker
-                    const searchMarker = L.marker([lat, lon], {
-                        icon: L.icon({
-                            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-                            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-                            iconSize: [25, 41],
-                            iconAnchor: [12, 41],
-                            popupAnchor: [1, -34],
-                            shadowSize: [41, 41]
-                        })
-                    }).addTo(map);
-
-                    searchMarker.bindPopup(`<strong>${results[0].display_name}</strong>`).openPopup();
-
-                    // Remove marker after 5 seconds
-                    setTimeout(() => {
-                        map.removeLayer(searchMarker);
-                    }, 5000);
                 } else {
                     alert('Location not found. Please try a different search term.');
                 }
