@@ -125,6 +125,8 @@ function initMap() {
         minZoom: 5
     }).addTo(map);
 
+    map.maxZoom = 14;
+
     // Add locate control
     const locateControl = L.control.locate({
         position: 'topleft',
