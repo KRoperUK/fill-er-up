@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'fuel_price_checker.py'
   schedule:
     # Run daily at 10:00 AM UTC
     - cron: '0 10 * * *'
@@ -71,3 +69,14 @@ jobs:
             .data/fuel_prices.json
           draft: false
           prerelease: false
+
+      - name: GCP Authenticate
+        uses: google-github-actions/auth@v3
+        with:
+          credentials_json: ${{ secrets.BUCKET_GSA_JSON }}
+
+      - name: Upload to GCP Bucket
+        uses: google-github-actions/upload-cloud-storage@v3.0.0
+        with:
+          path: .data/fuel_prices.json
+          destination: fuel_prices.json
