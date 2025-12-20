@@ -79,4 +79,4 @@ jobs:
         uses: google-github-actions/upload-cloud-storage@v3.0.0
         with:
           path: .data/fuel_prices.json
-          destination: ${{ secrets.BUCKET_NAME }}/fuel_prices.json
+          destination: ${{ secrets.BUCKET_NAME }}
