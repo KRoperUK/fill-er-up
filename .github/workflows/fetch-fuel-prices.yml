@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'fuel_price_checker.py'
   schedule:
     # Run daily at 10:00 AM UTC
     - cron: '0 10 * * *'
