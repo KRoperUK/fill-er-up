@@ -1,6 +1,9 @@
 // Use CORS proxy for GitHub releases
 // Alternative: Use raw.githubusercontent.com from main branch
 const DATA_URL = `https://storage.googleapis.com/fill-er-up/fuel_prices.json`;
+// Local cache settings
+const CACHE_KEY = 'fuel_prices_cache_v1';
+const MAX_CACHE_AGE_MS = 12 * 60 * 60 * 1000; // 12 hours
 
 // Fuel type mappings
 const FUEL_TYPES = {
@@ -61,13 +64,38 @@ async function init() {
             maxDistance = parseInt(savedMaxDistance);
         }
 
-        // Fetch the data
-        const response = await fetch(DATA_URL);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+        // Try reading cached data from localStorage (valid up to 12 hours)
+        let data;
+        let cacheObj = null;
+        try {
+            const raw = localStorage.getItem(CACHE_KEY);
+            if (raw) cacheObj = JSON.parse(raw);
+        } catch (e) {
+            // corrupted cache? remove it and continue to fetch
+            try { localStorage.removeItem(CACHE_KEY); } catch (e) {}
+            cacheObj = null;
         }
 
-        const data = await response.json();
+        const now = Date.now();
+        if (cacheObj && cacheObj.timestamp && (now - cacheObj.timestamp) < MAX_CACHE_AGE_MS) {
+            // use cached copy
+            data = cacheObj.data;
+        } else {
+            // Fetch fresh data and save to cache
+            const response = await fetch(DATA_URL);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            data = await response.json();
+
+            try {
+                localStorage.setItem(CACHE_KEY, JSON.stringify({ timestamp: now, data }));
+            } catch (e) {
+                // ignore storage quota errors
+            }
+        }
+
         allData = data;
 
         // Initialize the map
@@ -283,8 +311,37 @@ function updateSummary(data, results) {
     document.getElementById('retailer-count').textContent = results.length;
     document.getElementById('station-count').textContent = totalStations.toLocaleString();
 
-    const timestamp = new Date(data.timestamp);
+    const timestamp = data && data.timestamp ? new Date(data.timestamp) : new Date();
     document.getElementById('last-updated').textContent = timestamp.toLocaleString();
+
+    // Update data age display (replaces the previous "Live" label)
+    try {
+        const statusEl = document.getElementById('data-status');
+        const ageMs = Date.now() - timestamp.getTime();
+
+        const fmt = (ms) => {
+            if (ms < 60 * 1000) return 'LIVE';
+            const mins = Math.floor(ms / (60 * 1000));
+            if (mins < 60) return `${mins}m ago`;
+            const hrs = Math.floor(mins / 60);
+            if (hrs < 24) return `${hrs}h ago`;
+            const days = Math.floor(hrs / 24);
+            return `${days}d ago`;
+        };
+
+        // color: green if recent (<1h), yellow if <12h, red if >=12h
+        statusEl.textContent = fmt(ageMs);
+        statusEl.classList.remove('is-success', 'is-warning', 'is-danger');
+        if (ageMs < 60 * 60 * 1000) {
+            statusEl.classList.add('is-success');
+        } else if (ageMs < MAX_CACHE_AGE_MS) {
+            statusEl.classList.add('is-warning');
+        } else {
+            statusEl.classList.add('is-danger');
+        }
+    } catch (e) {
+        // ignore if element not present
+    }
 }
 
 // Update retailer status list
