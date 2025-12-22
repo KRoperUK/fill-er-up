@@ -522,7 +522,7 @@ function addStationMarker(station, retailer) {
 
         if (retailerKey.includes('costco')) {
             marker = L.marker([lat, lon], { icon: costcoIcon });
-        } else if (retailerKey.includes('bp')) {
+        } else if (station.brand && station.brand.toString().toLowerCase().includes('bp')) {
             marker = L.marker([lat, lon], { icon: bpIcon });
         } else if (retailerKey.includes('tesco'))    {
             marker = L.marker([lat, lon], { icon: tescoIcon });
