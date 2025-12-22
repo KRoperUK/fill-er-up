@@ -15,6 +15,13 @@ import requests
 class FuelPriceChecker:
     """Checks fuel prices from multiple UK retailers."""
 
+    # Costco fuel type mappings
+    COSTCO_FUEL_TYPES = {
+        "5301": "Unleaded Premium (E10)",
+        "5302": "Super Premium (E5)",
+        "5303": "Diesel",
+    }
+
     with open("retailers.json", "r") as f:
         RETAILERS = json.load(f)
 
@@ -52,6 +59,11 @@ class FuelPriceChecker:
             response.raise_for_status()
 
             data = response.json()
+
+            # Normalize Costco data to standard format
+            if retailer == "Costco":
+                data = self.normalize_costco_data(data)
+
             return {
                 "retailer": retailer,
                 "status": "success",
@@ -80,6 +92,75 @@ class FuelPriceChecker:
                 "error": "Invalid JSON response",
                 "url": url,
             }
+
+    def normalize_costco_data(self, data: Dict) -> Dict:
+        """
+        Normalize Costco's stores format to standard stations format.
+
+        Args:
+            data: Raw Costco API response
+
+        Returns:
+            Normalized data with stations array
+        """
+        if not isinstance(data, dict) or "stores" not in data:
+            return data
+
+        stores = data.get("stores", [])
+        stations = []
+
+        for store in stores:
+            if not isinstance(store, dict) or not store.get("gasTypes"):
+                continue
+
+            gas_types = store.get("gasTypes", [])
+            if not gas_types:
+                continue
+
+            # Convert Costco fuel types to standard format
+            prices = {}
+            for gas_type in gas_types:
+                code = gas_type.get("name", "")
+                price_str = gas_type.get("price", "0")
+
+                # Map Costco codes to standard fuel types
+                if code == "5301":
+                    prices["E10"] = int(float(price_str) * 100)
+                elif code == "5302":
+                    prices["E5"] = int(float(price_str) * 100)
+                elif code == "5303":
+                    prices["B7"] = int(float(price_str) * 100)
+
+            if not prices:
+                continue
+
+            # Extract address components
+            address_obj = store.get("address", {})
+            address_parts = []
+            if address_obj.get("line1"):
+                address_parts.append(address_obj.get("line1"))
+            if address_obj.get("line2"):
+                address_parts.append(address_obj.get("line2"))
+            if address_obj.get("town"):
+                address_parts.append(address_obj.get("town"))
+            if address_obj.get("postalCode"):
+                address_parts.append(address_obj.get("postalCode"))
+
+            address = ", ".join(address_parts) if address_parts else ""
+
+            station = {
+                "site_name": store.get("name", ""),
+                "address": address,
+                "location": {
+                    "latitude": store.get("geoPoint", {}).get("latitude"),
+                    "longitude": store.get("geoPoint", {}).get("longitude"),
+                },
+                "prices": prices,
+            }
+
+            stations.append(station)
+
+        return {"stations": stations}
 
     def fetch_all_prices(self, max_workers: int = 5) -> List[Dict]:
         """
@@ -123,7 +204,7 @@ class FuelPriceChecker:
         # Handle different JSON structures
         stations = []
 
-        # Most retailers use "stations" key
+        # Most retailers use "stations" key (including normalized Costco)
         if isinstance(data, dict) and "stations" in data:
             stations = data["stations"]
         elif isinstance(data, list):

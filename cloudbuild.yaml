@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-f'
+      - 'api/Dockerfile'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/fill-er-up-api'
+      - '.'
+images:
+  - 'gcr.io/$PROJECT_ID/fill-er-up-api'
