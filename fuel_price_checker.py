@@ -123,13 +123,17 @@ class FuelPriceChecker:
                 code = gas_type.get("name", "")
                 price_str = gas_type.get("price", "0")
 
+                # Costco prices are in pence per litre as decimals
+                # Convert to integer pence for consistency
+                price_pence = int(float(price_str))
+
                 # Map Costco codes to standard fuel types
                 if code == "5301":
-                    prices["E10"] = int(float(price_str) * 100)
+                    prices["E10"] = price_pence
                 elif code == "5302":
-                    prices["E5"] = int(float(price_str) * 100)
+                    prices["E5"] = price_pence
                 elif code == "5303":
-                    prices["B7"] = int(float(price_str) * 100)
+                    prices["B7"] = price_pence
 
             if not prices:
                 continue
