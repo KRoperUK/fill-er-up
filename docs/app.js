@@ -1,10 +1,6 @@
-// Configuration
-const REPO_OWNER = 'KRoperUK';
-const REPO_NAME = 'fill-er-up';
-
 // Use CORS proxy for GitHub releases
 // Alternative: Use raw.githubusercontent.com from main branch
-const DATA_URL = `https://corsproxy.io/?https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/download/latest/fuel_prices.json`;
+const DATA_URL = `https://storage.googleapis.com/fill-er-up/fuel_prices.json`;
 
 // Fuel type mappings
 const FUEL_TYPES = {
