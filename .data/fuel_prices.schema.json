@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fuel Prices Schema",
+  "description": "Schema for fuel_prices.json",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "retailer": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "last_updated": {
+                "type": "string"
+              },
+              "stations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" },
+                    "latitude": { "type": "number" },
+                    "longitude": { "type": "number" },
+                    "address": { "type": "string" },
+                    "prices": {
+                      "type": "object",
+                      "properties": {
+                        "unleaded": { "type": "number" },
+                        "diesel": { "type": "number" }
+                      }
+                    }
+                  }
+                }
+              },
+              "stores": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "displayName": { "type": "string" },
+                    "location": {
+                      "type": "object",
+                      "properties": {
+                        "latitude": { "type": "number" },
+                        "longitude": { "type": "number" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["retailer", "status", "data", "url"]
+      }
+    }
+  },
+  "required": ["timestamp", "results"]
+}

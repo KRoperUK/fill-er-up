@@ -1,0 +1,16 @@
+[
+    {
+        "origin": [
+            "https://fuel.kroper.uk",
+            "http://localhost:8000"
+        ],
+        "method": [
+            "GET"
+        ],
+        "responseHeader": [
+            "Content-Type",
+            "Authorization"
+        ],
+        "maxAgeSeconds": 3600
+    }
+]

@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 .mypy_cache/
 .data/*
+!fuel_prices.schema.json
+!fuel_prices.sample.json
 
 # C extensions
 *.so

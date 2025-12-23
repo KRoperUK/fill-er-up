@@ -1,0 +1,25 @@
+{
+  "timestamp": "2023-10-27T10:00:00Z",
+  "results": [
+    {
+      "retailer": "Sample Retailer",
+      "status": "success",
+      "data": {
+        "last_updated": "27/10/2023 10:00:00",
+        "stations": [
+          {
+            "name": "Sample Station 1",
+            "latitude": 51.5074,
+            "longitude": -0.1278,
+            "address": "123 Sample Street, London",
+            "prices": {
+              "unleaded": 150.9,
+              "diesel": 160.9
+            }
+          }
+        ]
+      },
+      "url": "http://example.com/fuel_prices.json"
+    }
+  ]
+}

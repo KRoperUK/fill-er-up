@@ -1,0 +1,36 @@
+{
+  "name": "fill-er-up-api",
+  "main": "src/worker.js",
+  "workers_dev": true,
+  "preview_urls": false,
+  "compatibility_date": "2025-12-23",
+  "routes": [
+    {
+      "pattern": "api.fuel.kroper.uk",
+      "zone_name": "kroper.uk",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  },
+  "r2_buckets": [
+    {
+      "binding": "fuel-prices",
+      "bucket_name": "fill-er-up",
+      "remote": false
+    }
+  ]
+}
