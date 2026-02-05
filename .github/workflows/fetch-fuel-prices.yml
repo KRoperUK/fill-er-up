@@ -41,12 +41,14 @@ jobs:
       - name: Copy fuel prices to docs folder
         run: |
           cp .data/fuel_prices.json docs/fuel_prices.json
+          mkdir -p docs/fuel.kroper.uk
+          cp .data/fuel_prices.json docs/fuel.kroper.uk/data.json
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/fuel_prices.json
+          git add docs/fuel_prices.json docs/fuel.kroper.uk/data.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update fuel prices - ${{ steps.date.outputs.date }}"
           git push
 
