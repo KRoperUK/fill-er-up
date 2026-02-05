@@ -1,6 +1,5 @@
-// Use CORS proxy for GitHub releases
-// Alternative: Use raw.githubusercontent.com from main branch
-const DATA_URL = `https://storage.googleapis.com/fill-er-up/fuel_prices.json`;
+// Use local JSON file instead of Google Cloud Storage
+const DATA_URL = `./fuel_prices.json`;
 // Local cache settings
 const CACHE_KEY = 'fuel_prices_cache_v1';
 const MAX_CACHE_AGE_MS = 12 * 60 * 60 * 1000; // 12 hours
