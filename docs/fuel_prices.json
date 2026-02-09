@@ -1,11 +1,3088 @@
 {
-  "timestamp": "2026-02-08T10:20:05.948984",
+  "timestamp": "2026-02-09T04:57:57.099679",
   "results": [
+    {
+      "retailer": "Esso Tesco Alliance",
+      "status": "success",
+      "data": {
+        "last_updated": "07/02/2026 00:05:19",
+        "stations": [
+          {
+            "site_id": "gcw2c1djm2gb",
+            "brand": "ESSO",
+            "address": "104 BRADFORD STREET, BOLTON",
+            "postcode": "BL2 1JR",
+            "location": {
+              "latitude": 53.578481,
+              "longitude": -2.414015
+            },
+            "prices": {
+              "B7": 137.9,
+              "SDV": 151.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcw9tpts8jzw",
+            "brand": "ESSO",
+            "address": "KEIGHLEY ROAD, HALIFAX",
+            "postcode": "HX2 8BA",
+            "location": {
+              "latitude": 53.743175,
+              "longitude": -1.882085
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "SDV": 155.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcpkj675bcpz",
+            "brand": "ESSO",
+            "address": "Reading Road, YATELEY",
+            "postcode": "GU46 7UH",
+            "location": {
+              "latitude": 51.341135,
+              "longitude": -0.819812
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gctc5z1n97k4",
+            "brand": "ESSO",
+            "address": "5 ALBERT ROAD, SOUTHPORT",
+            "postcode": "PR9 0LR",
+            "location": {
+              "latitude": 53.652867,
+              "longitude": -2.997835
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "SDV": 151.9,
+              "B7": 137.9
+            }
+          },
+          {
+            "site_id": "gctck8bvph80",
+            "brand": "ESSO",
+            "address": "Preston New Road, SOUTHPORT",
+            "postcode": "PR9 8PD",
+            "location": {
+              "latitude": 53.662229,
+              "longitude": -2.964978
+            },
+            "prices": {
+              "B7": 137.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcunu2wx202n",
+            "brand": "ESSO",
+            "address": "PATERSON STREET, LOCHGILPHEAD",
+            "postcode": "PA31 8JP",
+            "location": {
+              "latitude": 56.034267,
+              "longitude": -5.429306
+            },
+            "prices": {
+              "E5": 149.9,
+              "E10": 134.9,
+              "B7": 143.9,
+              "SDV": 157.9
+            }
+          },
+          {
+            "site_id": "gcn8xj2rxehh",
+            "brand": "ESSO",
+            "address": "Barrack Road, CHRISTCHURCH",
+            "postcode": "BH23 2AY",
+            "location": {
+              "latitude": 50.743034,
+              "longitude": -1.801087
+            },
+            "prices": {
+              "B7": 141.9,
+              "E10": 131.9,
+              "E5": 146.9
+            }
+          },
+          {
+            "site_id": "gcptrej1s0gf",
+            "brand": "ESSO",
+            "address": "Alexandra Avenue, SOUTH HARROW",
+            "postcode": "HA2 9DL",
+            "location": {
+              "latitude": 51.564593,
+              "longitude": -0.366492
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcuvv5y0ryzz",
+            "brand": "ESSO",
+            "address": "1329 DUMBARTON ROAD., GLASGOW",
+            "postcode": "G14 9UY",
+            "location": {
+              "latitude": 55.875172,
+              "longitude": -4.342003
+            },
+            "prices": {
+              "E10": 132.9,
+              "E5": 147.9,
+              "B7": 141.9,
+              "SDV": 155.9
+            }
+          },
+          {
+            "site_id": "gcpv5u7mf88n",
+            "brand": "ESSO",
+            "address": "Maida Vale, LONDON",
+            "postcode": "W9 1UP",
+            "location": {
+              "latitude": 51.528243,
+              "longitude": -0.182197
+            },
+            "prices": {
+              "SDV": 158.9,
+              "B7": 142.9,
+              "E5": 148.9,
+              "E10": 133.9
+            }
+          },
+          {
+            "site_id": "gcwdn27ywjxv",
+            "brand": "ESSO",
+            "address": "THORNTON ROAD, BRADFORD",
+            "postcode": "BD13 3DG",
+            "location": {
+              "latitude": 53.791582,
+              "longitude": -1.829299
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcq6h2mc99fr",
+            "brand": "ESSO",
+            "address": "BEWDLEY HILL, KIDDERMINSTER",
+            "postcode": "DY11 6BS",
+            "location": {
+              "latitude": 52.384454,
+              "longitude": -2.266206
+            },
+            "prices": {
+              "SDV": 159.9,
+              "B7": 144.9,
+              "E5": 150.9,
+              "E10": 135.9
+            }
+          },
+          {
+            "site_id": "gcw2jqhb498j",
+            "brand": "ESSO",
+            "address": "ARDWICK GREEN, ARDWICK",
+            "postcode": "M13 9XF",
+            "location": {
+              "latitude": 53.470468,
+              "longitude": -2.223594
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "B7": 137.9,
+              "SDV": 151.9
+            }
+          },
+          {
+            "site_id": "gcq8797sjuef",
+            "brand": "ESSO",
+            "address": "47 CHELTENHAM ROAD, EVESHAM",
+            "postcode": "WR11 6LD",
+            "location": {
+              "latitude": 52.082773,
+              "longitude": -1.950508
+            },
+            "prices": {
+              "SDV": 155.9,
+              "B7": 140.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcq2vgghyg87",
+            "brand": "ESSO",
+            "address": "London Road, WORCESTER",
+            "postcode": "WR5 2EL",
+            "location": {
+              "latitude": 52.18452,
+              "longitude": -2.203842
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcuvsy6e832p",
+            "brand": "ESSO",
+            "address": "2199 PAISLEY ROAD WEST, GLASGOW",
+            "postcode": "G52 3QA",
+            "location": {
+              "latitude": 55.845488,
+              "longitude": -4.358128
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcpugu0tn00q",
+            "brand": "ESSO",
+            "address": "Fulham Road, LONDON",
+            "postcode": "SW10 9UZ",
+            "location": {
+              "latitude": 51.482793,
+              "longitude": -0.185823
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcx9y1s6r7rf",
+            "brand": "ESSO",
+            "address": "Kingston Road, HULL",
+            "postcode": "HU10 6NB",
+            "location": {
+              "latitude": 53.753761,
+              "longitude": -0.433295
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcx9wmutznxg",
+            "brand": "ESSO",
+            "address": "1/13 BOOTHFERRY ROAD, HESSLE, HULL",
+            "postcode": "HU13 9AZ",
+            "location": {
+              "latitude": 53.73378,
+              "longitude": -0.421976
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcncrcdh7124",
+            "brand": "ESSO",
+            "address": "Beaulieu Road, SOUTHAMPTON",
+            "postcode": "SO45 4JH",
+            "location": {
+              "latitude": 50.853703,
+              "longitude": -1.414361
+            },
+            "prices": {
+              "B7": 140.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcwfj7becneg",
+            "brand": "ESSO",
+            "address": "ROUNDHAY ROAD, LEEDS",
+            "postcode": "LS7 1QR",
+            "location": {
+              "latitude": 53.810341,
+              "longitude": -1.526365
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcptjh08nv0p",
+            "brand": "ESSO",
+            "address": "High Street, UXBRIDGE",
+            "postcode": "UB8 2HS",
+            "location": {
+              "latitude": 51.525907,
+              "longitude": -0.482422
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcp1pg0d1pb4",
+            "brand": "ESSO",
+            "address": "Copnor Road, PORTSMOUTH",
+            "postcode": "PO3 5EE",
+            "location": {
+              "latitude": 50.817646,
+              "longitude": -1.064944
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcwdz1kw5g00",
+            "brand": "ESSO",
+            "address": "RIVERSIDE, BEN RHYDDING, ILKLEY",
+            "postcode": "LS29 8BS",
+            "location": {
+              "latitude": 53.928811,
+              "longitude": -1.795417
+            },
+            "prices": {
+              "B7": 138.9,
+              "E5": 143.9,
+              "E10": 128.9
+            }
+          },
+          {
+            "site_id": "gcw2vskh51s4",
+            "brand": "ESSO",
+            "address": "YORK STREET, HEYWOOD",
+            "postcode": "OL10 4NS",
+            "location": {
+              "latitude": 53.593377,
+              "longitude": -2.213611
+            },
+            "prices": {
+              "E10": 127.9,
+              "B7": 137.9,
+              "SDV": 151.9
+            }
+          },
+          {
+            "site_id": "gcvjv63yuc2h",
+            "brand": "ESSO",
+            "address": "24 High Street, AIRDRIE",
+            "postcode": "ML6 0DU",
+            "location": {
+              "latitude": 55.868018,
+              "longitude": -3.98543
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcnjj25n0zbp",
+            "brand": "ESSO",
+            "address": "73-75 Gloucester Road North, BRISTOL",
+            "postcode": "BS34 7PL",
+            "location": {
+              "latitude": 51.504979,
+              "longitude": -2.577635
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcqq08vks5kh",
+            "brand": "ESSO",
+            "address": "STATION APPROACH, CHESHIRE",
+            "postcode": "CW1 3RD",
+            "location": {
+              "latitude": 53.090848,
+              "longitude": -2.431578
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E10": 133.9,
+              "E5": 148.9
+            }
+          },
+          {
+            "site_id": "gcrjmkb811rz",
+            "brand": "ESSO",
+            "address": "Valley Road, NOTTINGHAM",
+            "postcode": "NG5 1JJ",
+            "location": {
+              "latitude": 52.980202,
+              "longitude": -1.174797
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcqyzjgnehrz",
+            "brand": "ESSO",
+            "address": "Newbold Road, CHESTERFIELD",
+            "postcode": "S41 7AL",
+            "location": {
+              "latitude": 53.250499,
+              "longitude": -1.445936
+            },
+            "prices": {
+              "SDV": 157.9,
+              "B7": 142.9,
+              "E10": 133.9,
+              "E5": 148.9
+            }
+          },
+          {
+            "site_id": "gcjvt0epytgc",
+            "brand": "ESSO",
+            "address": "CHEPSTOW ROAD, NEWPORT",
+            "postcode": "NP19 9EZ",
+            "location": {
+              "latitude": 51.595905,
+              "longitude": -2.939932
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcqwutbw3zpd",
+            "brand": "ESSO",
+            "address": "LONDON ROAD, BUXTON",
+            "postcode": "SK17 9NW",
+            "location": {
+              "latitude": 53.25047,
+              "longitude": -1.910849
+            },
+            "prices": {
+              "B7": 143.9,
+              "E10": 135.9
+            }
+          },
+          {
+            "site_id": "gcqvp4xpufxb",
+            "brand": "ESSO",
+            "address": "Nottingham Road, DERBY",
+            "postcode": "DE21 6NA",
+            "location": {
+              "latitude": 52.925233,
+              "longitude": -1.440368
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "B7": 137.9,
+              "SDV": 151.9
+            }
+          },
+          {
+            "site_id": "gcmzzbu57veb",
+            "brand": "ESSO",
+            "address": "CRONTON ROAD, TARBOCK",
+            "postcode": "L35 1QY",
+            "location": {
+              "latitude": 53.398262,
+              "longitude": -2.817827
+            },
+            "prices": {
+              "SDV": 156.9,
+              "B7": 141.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcrn5ehyds5s",
+            "brand": "ESSO",
+            "address": "Lowmoor Road, NOTTINGHAM",
+            "postcode": "NG17 7JE",
+            "location": {
+              "latitude": 53.103555,
+              "longitude": -1.245806
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcq04s6eq0gw",
+            "brand": "ESSO",
+            "address": "Ledbury Road, HEREFORD",
+            "postcode": "HR1 2TB",
+            "location": {
+              "latitude": 52.055159,
+              "longitude": -2.698941
+            },
+            "prices": {
+              "SDV": 159.9,
+              "B7": 144.9,
+              "E5": 149.9,
+              "E10": 134.9
+            }
+          },
+          {
+            "site_id": "gcvy28ge0xe8",
+            "brand": "ESSO",
+            "address": "Willowbrae Road, EDINBURGH",
+            "postcode": "EH8 7NG",
+            "location": {
+              "latitude": 55.947058,
+              "longitude": -3.137257
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "u10jkq0p40zu",
+            "brand": "ESSO",
+            "address": "MAIN ROAD, ROMFORD,",
+            "postcode": "RM1 3BT",
+            "location": {
+              "latitude": 51.582017,
+              "longitude": 0.186864
+            },
+            "prices": {
+              "B7": 140.9,
+              "SDV": 154.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcybphyz0b0m",
+            "brand": "ESSO",
+            "address": "SILKSWORTH ROAD, SUNDERLAND",
+            "postcode": "SR3 3PN",
+            "location": {
+              "latitude": 54.871045,
+              "longitude": -1.440893
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcpvu1ykug2j",
+            "brand": "ESSO",
+            "address": "EAST BARNET ROAD, EAST BARNET",
+            "postcode": "EN4 8RD",
+            "location": {
+              "latitude": 51.646189,
+              "longitude": -0.166994
+            },
+            "prices": {
+              "B7": 139.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcqzt5jkbzg8",
+            "brand": "ESSO",
+            "address": "FULWOOD ROAD, SHEFFIELD",
+            "postcode": "S10 3QA",
+            "location": {
+              "latitude": 53.366946,
+              "longitude": -1.530839
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 139.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcw0k1u0r8uk",
+            "brand": "ESSO",
+            "address": "BOLTON ROAD, ASHTON-IN MAKERFIELD",
+            "postcode": "WN4 8PF",
+            "location": {
+              "latitude": 53.491106,
+              "longitude": -2.630898
+            },
+            "prices": {
+              "B7": 138.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcpcnnrqt359",
+            "brand": "ESSO",
+            "address": "10-18 Warren Road, BRIGHTON",
+            "postcode": "BN2 6BB",
+            "location": {
+              "latitude": 50.836235,
+              "longitude": -0.077704
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcpsyrmh80ef",
+            "brand": "ESSO",
+            "address": "North Hyde Road, HAYES",
+            "postcode": "UB3 4NE",
+            "location": {
+              "latitude": 51.500562,
+              "longitude": -0.421595
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcw6j7g0tkk5",
+            "brand": "ESSO",
+            "address": "Casterton Avenue, BURNLEY",
+            "postcode": "BB10 2PA",
+            "location": {
+              "latitude": 53.809771,
+              "longitude": -2.225874
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 136.9
+            }
+          },
+          {
+            "site_id": "u10k7mktrekj",
+            "brand": "ESSO",
+            "address": "FRINDSBURY ROAD, STROOD",
+            "postcode": "ME2 4JD",
+            "location": {
+              "latitude": 51.401829,
+              "longitude": 0.500892
+            },
+            "prices": {
+              "B7": 142.9,
+              "SDV": 156.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcj88391b8vz",
+            "brand": "ESSO",
+            "address": "85 Fore Street, EXETER",
+            "postcode": "EX1 2RN",
+            "location": {
+              "latitude": 50.721436,
+              "longitude": -3.503236
+            },
+            "prices": {
+              "E10": 134.9,
+              "E5": 149.9,
+              "B7": 143.9
+            }
+          },
+          {
+            "site_id": "u10h6t4xmr0h",
+            "brand": "ESSO",
+            "address": "Sevenoaks Way, ORPINGTON",
+            "postcode": "BR5 3AQ",
+            "location": {
+              "latitude": 51.400819,
+              "longitude": 0.113522
+            },
+            "prices": {
+              "B7": 142.9,
+              "SDV": 156.9
+            }
+          },
+          {
+            "site_id": "gcnhmz870zgd",
+            "brand": "ESSO",
+            "address": "WELLS ROAD, WHITCHURCH, BRISTOL",
+            "postcode": "BS14 9HY",
+            "location": {
+              "latitude": 51.413826,
+              "longitude": -2.559434
+            },
+            "prices": {
+              "SDV": 152.9,
+              "B7": 138.9,
+              "E5": 143.9,
+              "E10": 128.9
+            }
+          },
+          {
+            "site_id": "gcnk4j5w81p8",
+            "brand": "ESSO",
+            "address": "MIDFORD ROAD, BATH",
+            "postcode": "BA2 5RU",
+            "location": {
+              "latitude": 51.356712,
+              "longitude": -2.36823
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcqe21wxt6xx",
+            "brand": "ESSO",
+            "address": "Cannock Road, WOLVERHAMPTON",
+            "postcode": "WV10 8PN",
+            "location": {
+              "latitude": 52.612081,
+              "longitude": -2.100213
+            },
+            "prices": {
+              "B7": 141.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcqg1xwwufgb",
+            "brand": "ESSO",
+            "address": "HIGH STREET, TAMWORTH",
+            "postcode": "B77 1LE",
+            "location": {
+              "latitude": 52.600966,
+              "longitude": -1.682759
+            },
+            "prices": {
+              "E10": 132.9,
+              "E5": 147.9,
+              "B7": 142.9,
+              "SDV": 156.9
+            }
+          },
+          {
+            "site_id": "gcrpbx9f5mk0",
+            "brand": "ESSO",
+            "address": "WORTLEY ROAD, ROTHERHAM",
+            "postcode": "S61 1LH",
+            "location": {
+              "latitude": 53.435125,
+              "longitude": -1.381729
+            },
+            "prices": {
+              "SDV": 152.9,
+              "B7": 138.9,
+              "E5": 142.9,
+              "E10": 127.9
+            }
+          },
+          {
+            "site_id": "gfn4g2nvpx24",
+            "brand": "ESSO",
+            "address": "CLERK STREET, BRECHIN",
+            "postcode": "DD9 6AY",
+            "location": {
+              "latitude": 56.734296,
+              "longitude": -2.660086
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "gcp7thm3ju23",
+            "brand": "ESSO",
+            "address": "READING ROAD STH, FLEET, CROOKHAM",
+            "postcode": "GU52 6AB",
+            "location": {
+              "latitude": 51.263775,
+              "longitude": -0.827504
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "u10h86zrbpz9",
+            "brand": "ESSO",
+            "address": "Baring Road, LONDON",
+            "postcode": "SE12 0DU",
+            "location": {
+              "latitude": 51.432494,
+              "longitude": 0.020953
+            },
+            "prices": {
+              "E10": 132.9,
+              "E5": 147.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "gcpu474f2dpg",
+            "brand": "ESSO",
+            "address": "Ewell By Pass, EPSOM",
+            "postcode": "KT17 1PG",
+            "location": {
+              "latitude": 51.345002,
+              "longitude": -0.248877
+            },
+            "prices": {
+              "B7": 140.9,
+              "SDV": 154.9,
+              "E5": 148.9,
+              "E10": 133.9
+            }
+          },
+          {
+            "site_id": "u10h259xkwgt",
+            "brand": "ESSO",
+            "address": "Westmoreland Road, BROMLEY",
+            "postcode": "BR2 0UJ",
+            "location": {
+              "latitude": 51.392578,
+              "longitude": 0.002258
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "SDV": 152.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "gcpuwskxx1kr",
+            "brand": "ESSO",
+            "address": "LONDON ROAD, LONDON",
+            "postcode": "SE23 3PE",
+            "location": {
+              "latitude": 51.440657,
+              "longitude": -0.059432
+            },
+            "prices": {
+              "B7": 140.9,
+              "SDV": 154.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcpsh3rqfdu2",
+            "brand": "ESSO",
+            "address": "OLD WOKING RD, WEST BYFLEET",
+            "postcode": "KT14 6JA",
+            "location": {
+              "latitude": 51.336165,
+              "longitude": -0.506288
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "u10k6vt9cqwn",
+            "brand": "ESSO",
+            "address": "GRAVESEND ROAD, STROOD",
+            "postcode": "ME2 3PW",
+            "location": {
+              "latitude": 51.402619,
+              "longitude": 0.480027
+            },
+            "prices": {
+              "B7": 142.9,
+              "SDV": 156.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gfjcr0mwzt23",
+            "brand": "ESSO",
+            "address": "14A DALHOUSIE ROAD, BROUGHTY FERRY",
+            "postcode": "DD5 2SQ",
+            "location": {
+              "latitude": 56.472287,
+              "longitude": -2.84857
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcvq9db1fdr9",
+            "brand": "ESSO",
+            "address": "Camelon Road, FALKIRK",
+            "postcode": "FK1 5BS",
+            "location": {
+              "latitude": 56.001747,
+              "longitude": -3.801152
+            },
+            "prices": {
+              "B7": 138.9,
+              "SDV": 152.9,
+              "E5": 143.9,
+              "E10": 128.9
+            }
+          },
+          {
+            "site_id": "gcpx5yww627f",
+            "brand": "ESSO",
+            "address": "HIGH STREET NORTH, DUNSTABLE",
+            "postcode": "LU6 1LW",
+            "location": {
+              "latitude": 51.892249,
+              "longitude": -0.529302
+            },
+            "prices": {
+              "E10": 127.9,
+              "E5": 142.9,
+              "SDV": 149.9,
+              "B7": 135.9
+            }
+          },
+          {
+            "site_id": "gcjjgfkze1eu",
+            "brand": "ESSO",
+            "address": "62 Brynymor Road, SWANSEA",
+            "postcode": "SA4 3EZ",
+            "location": {
+              "latitude": 51.649398,
+              "longitude": -4.047298
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "gcjqm7v1chzt",
+            "brand": "ESSO",
+            "address": "NEATH ROAD, NEATH",
+            "postcode": "SA11 5EW",
+            "location": {
+              "latitude": 51.744559,
+              "longitude": -3.629555
+            },
+            "prices": {
+              "E10": 132.9,
+              "E5": 147.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "u103e5zrwt04",
+            "brand": "ESSO",
+            "address": "BATTLE HILL, BATTLE",
+            "postcode": "TN33 0BG",
+            "location": {
+              "latitude": 50.910586,
+              "longitude": 0.493634
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "gcw2jkmcrqbp",
+            "brand": "ESSO",
+            "address": "257 UPPER BROOK STREET, MANCHESTER",
+            "postcode": "M13 0HL",
+            "location": {
+              "latitude": 53.461098,
+              "longitude": -2.222017
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "SDV": 151.9,
+              "B7": 137.9
+            }
+          },
+          {
+            "site_id": "gcr5m6pcpkgd",
+            "brand": "ESSO",
+            "address": "NARBOROUGH RD, LEICESTER",
+            "postcode": "LE3 3FU",
+            "location": {
+              "latitude": 52.613723,
+              "longitude": -1.164578
+            },
+            "prices": {
+              "B7": 141.9,
+              "SDV": 155.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcqed5exrugg",
+            "brand": "ESSO",
+            "address": "Walsall Road, GREAT WYRLEY",
+            "postcode": "WS6 6LA",
+            "location": {
+              "latitude": 52.666981,
+              "longitude": -2.01634
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "SDV": 152.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "gcqe30cvv8uj",
+            "brand": "ESSO",
+            "address": "Lichfield Road, WOLVERHAMPTON",
+            "postcode": "WV11 3HD",
+            "location": {
+              "latitude": 52.607651,
+              "longitude": -2.062785
+            },
+            "prices": {
+              "B7": 142.9,
+              "E5": 148.9,
+              "E10": 133.9
+            }
+          },
+          {
+            "site_id": "gcq6c5etqqs4",
+            "brand": "ESSO",
+            "address": "CANN HALL ROAD, BRIDGNORTH",
+            "postcode": "WV15 5AP",
+            "location": {
+              "latitude": 52.534811,
+              "longitude": -2.411912
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "B7": 142.9,
+              "SDV": 157.9
+            }
+          },
+          {
+            "site_id": "gcr3hnvgd65f",
+            "brand": "ESSO",
+            "address": "WELLINGBOROUGH ROAD, ABINGTON, NORTHANTS",
+            "postcode": "NN1 4EY",
+            "location": {
+              "latitude": 52.244722,
+              "longitude": -0.870908
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "u10kbkh7zvbh",
+            "brand": "ESSO",
+            "address": "Brentwood Road, CHADWELL ST MARY",
+            "postcode": "RM16 4JD",
+            "location": {
+              "latitude": 51.482609,
+              "longitude": 0.368718
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "B7": 141.9,
+              "SDV": 155.9
+            }
+          },
+          {
+            "site_id": "gcpuebqrebsj",
+            "brand": "ESSO",
+            "address": "HIGH STREET, COLLIERS WOOD, LONDON",
+            "postcode": "SW19 2BN",
+            "location": {
+              "latitude": 51.41868,
+              "longitude": -0.178018
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E5": 148.9,
+              "E10": 133.9
+            }
+          },
+          {
+            "site_id": "gbvrpw13me8j",
+            "brand": "ESSO",
+            "address": "Teignmouth Road, TORQUAY",
+            "postcode": "TQ1 4RY",
+            "location": {
+              "latitude": 50.482412,
+              "longitude": -3.535645
+            },
+            "prices": {
+              "E10": 131.9,
+              "E5": 146.9,
+              "B7": 141.9,
+              "SDV": 155.9
+            }
+          },
+          {
+            "site_id": "gcpsgpe4tgkh",
+            "brand": "ESSO",
+            "address": "London Road, SLOUGH",
+            "postcode": "SL3 7HR",
+            "location": {
+              "latitude": 51.501607,
+              "longitude": -0.566917
+            },
+            "prices": {
+              "SDV": 156.9,
+              "B7": 142.9,
+              "E5": 150.9,
+              "E10": 135.9
+            }
+          },
+          {
+            "site_id": "gcybyx6fet5g",
+            "brand": "ESSO",
+            "address": "Beach Road, NORTH SHIELDS",
+            "postcode": "NE29 9AE",
+            "location": {
+              "latitude": 55.015868,
+              "longitude": -1.468236
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcybf0pjp2s2",
+            "brand": "ESSO",
+            "address": "West Road, NEWCASTLE UPON TYNE",
+            "postcode": "NE15 6PQ",
+            "location": {
+              "latitude": 54.976447,
+              "longitude": -1.659992
+            },
+            "prices": {
+              "B7": 139.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcnhusg8c5rf",
+            "brand": "ESSO",
+            "address": "Henleaze Road, BRISTOL",
+            "postcode": "BS9 4NB",
+            "location": {
+              "latitude": 51.4862,
+              "longitude": -2.609886
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcwgjvbesz87",
+            "brand": "ESSO",
+            "address": "KNARESBOROUGH ROAD, HARROGATE",
+            "postcode": "HG2 7HY",
+            "location": {
+              "latitude": 53.997071,
+              "longitude": -1.504236
+            },
+            "prices": {
+              "B7": 142.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcwfjnehg85e",
+            "brand": "ESSO",
+            "address": "HARROGATE ROAD, LEEDS",
+            "postcode": "LS7 4LA",
+            "location": {
+              "latitude": 53.825584,
+              "longitude": -1.533811
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcwc7q1znw79",
+            "brand": "ESSO",
+            "address": "WAKEFIELD ROAD, DEWSBURY",
+            "postcode": "WF12 8AJ",
+            "location": {
+              "latitude": 53.691421,
+              "longitude": -1.612303
+            },
+            "prices": {
+              "SDV": 151.9,
+              "B7": 136.9,
+              "E5": 141.9,
+              "E10": 126.9
+            }
+          },
+          {
+            "site_id": "gcwcsgsru4gv",
+            "brand": "ESSO",
+            "address": "BRADFORD ROAD, EAST ARDSLEY",
+            "postcode": "WF3 2JA",
+            "location": {
+              "latitude": 53.721744,
+              "longitude": -1.543059
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "B7": 138.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcptw9mfcmbk",
+            "brand": "ESSO",
+            "address": "Joel Street, PINNER",
+            "postcode": "HA5 2PA",
+            "location": {
+              "latitude": 51.599167,
+              "longitude": -0.40953
+            },
+            "prices": {
+              "B7": 141.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcptxnw3rmzb",
+            "brand": "ESSO",
+            "address": "Prestwick Road, SOUTH OXHEY",
+            "postcode": "WD19 6EG",
+            "location": {
+              "latitude": 51.627748,
+              "longitude": -0.386603
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcpv9m7q4k7z",
+            "brand": "ESSO",
+            "address": "STONEGROVE, EDGWARE",
+            "postcode": "HA8 8AF",
+            "location": {
+              "latitude": 51.62169,
+              "longitude": -0.292066
+            },
+            "prices": {
+              "B7": 141.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcpv8r2rfj8h",
+            "brand": "ESSO",
+            "address": "High Road, WATFORD",
+            "postcode": "WD23 1EL",
+            "location": {
+              "latitude": 51.632983,
+              "longitude": -0.340147
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcpv92cbu9b2",
+            "brand": "ESSO",
+            "address": "HONEYPOT LANE, STANMORE",
+            "postcode": "HA7 1JN",
+            "location": {
+              "latitude": 51.596055,
+              "longitude": -0.294034
+            },
+            "prices": {
+              "SDV": 154.9,
+              "B7": 140.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcp19jyp9p2n",
+            "brand": "ESSO",
+            "address": "149 WEST END ROAD, BITTERNE, SOUTHAMPTON",
+            "postcode": "SO18 6PJ",
+            "location": {
+              "latitude": 50.921585,
+              "longitude": -1.354022
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcp18jxhxv06",
+            "brand": "ESSO",
+            "address": "Lodge Road, SOUTHAMPTON",
+            "postcode": "SO14 6RP",
+            "location": {
+              "latitude": 50.919684,
+              "longitude": -1.396304
+            },
+            "prices": {
+              "B7": 139.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "gcrpfhxy9rpu",
+            "brand": "ESSO",
+            "address": "East Bawtry Road, ROTHERHAM",
+            "postcode": "S60 4BX",
+            "location": {
+              "latitude": 53.419428,
+              "longitude": -1.307652
+            },
+            "prices": {
+              "E10": 126.9,
+              "E5": 141.9,
+              "B7": 136.9,
+              "SDV": 150.9
+            }
+          },
+          {
+            "site_id": "gcx0re3bn3rc",
+            "brand": "ESSO",
+            "address": "BAWTRY ROAD, DONCASTER",
+            "postcode": "DN4 7DA",
+            "location": {
+              "latitude": 53.499305,
+              "longitude": -1.073978
+            },
+            "prices": {
+              "SDV": 155.9,
+              "B7": 140.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "gcqrxgjhg05u",
+            "brand": "ESSO",
+            "address": "MACCLESFIELD ROAD, STOCKPORT",
+            "postcode": "SK7 6DT",
+            "location": {
+              "latitude": 53.366905,
+              "longitude": -2.113361
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 138.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcv3qm5x3cxy",
+            "brand": "ESSO",
+            "address": "EDINBURGH ROAD, DUMFRIES",
+            "postcode": "DG1 1TT",
+            "location": {
+              "latitude": 55.092196,
+              "longitude": -3.587637
+            },
+            "prices": {
+              "SDV": 153.9,
+              "B7": 139.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "u107thcy9gpz",
+            "brand": "ESSO",
+            "address": "143 ASHFORD ROAD, MAIDSTONE",
+            "postcode": "ME14 4NE",
+            "location": {
+              "latitude": 51.26746,
+              "longitude": 0.573778
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "B7": 141.9,
+              "SDV": 155.9
+            }
+          },
+          {
+            "site_id": "u107ejpdcq05",
+            "brand": "ESSO",
+            "address": "Tonbridge Road, MAIDSTONE",
+            "postcode": "ME16 8TE",
+            "location": {
+              "latitude": 51.268205,
+              "longitude": 0.493752
+            },
+            "prices": {
+              "SDV": 155.9,
+              "B7": 141.9,
+              "E5": 149.9,
+              "E10": 134.9
+            }
+          },
+          {
+            "site_id": "gcputmvfhf07",
+            "brand": "ESSO",
+            "address": "TULSE HILL, BRIXTON, LONDON",
+            "postcode": "SW2 3UJ",
+            "location": {
+              "latitude": 51.447956,
+              "longitude": -0.112749
+            },
+            "prices": {
+              "E10": 132.9,
+              "E5": 147.9,
+              "B7": 141.9,
+              "SDV": 155.9
+            }
+          },
+          {
+            "site_id": "gcp9nv0kcwkn",
+            "brand": "ESSO",
+            "address": "182 LITTLEHAMPTON ROAD, WORTHING",
+            "postcode": "BN13 1QY",
+            "location": {
+              "latitude": 50.829097,
+              "longitude": -0.406081
+            },
+            "prices": {
+              "B7": 139.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcw3f31403xz",
+            "brand": "ESSO",
+            "address": "ABBEY STREET, ACCRINGTON",
+            "postcode": "BB5 1EW",
+            "location": {
+              "latitude": 53.750963,
+              "longitude": -2.360666
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcmzvtkvr2gt",
+            "brand": "ESSO",
+            "address": "418-420 QUEENS DRIVE, LIVERPOOL",
+            "postcode": "L13 0AR",
+            "location": {
+              "latitude": 53.4233,
+              "longitude": -2.915524
+            },
+            "prices": {
+              "SDV": 152.9,
+              "B7": 137.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcqrw9pwkd0j",
+            "brand": "ESSO",
+            "address": "WOODFORD ROAD, BRAMHALL",
+            "postcode": "SK7 1JR",
+            "location": {
+              "latitude": 53.356187,
+              "longitude": -2.1648
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "gcw2h1t835gz",
+            "brand": "ESSO",
+            "address": "84 MANCHESTER ROAD, CHORLTON-CUM-HARDY",
+            "postcode": "M21 9PT",
+            "location": {
+              "latitude": 53.445804,
+              "longitude": -2.277555
+            },
+            "prices": {
+              "B7": 138.9,
+              "SDV": 153.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "gcp1fmyvzxxu",
+            "brand": "ESSO",
+            "address": "Winchester Road, FAIR OAK, EASTLEIGH",
+            "postcode": "SO50 7HD",
+            "location": {
+              "latitude": 50.965231,
+              "longitude": -1.297771
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcp49bzfhngf",
+            "brand": "ESSO",
+            "address": "ANDOVER ROAD, HAMPSHIRE",
+            "postcode": "SO23 7BT",
+            "location": {
+              "latitude": 51.068953,
+              "longitude": -1.318526
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "u107cfws89gg",
+            "brand": "ESSO",
+            "address": "London Road, AYLESFORD",
+            "postcode": "ME20 6HJ",
+            "location": {
+              "latitude": 51.298695,
+              "longitude": 0.43742
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "u101jdfhu4xu",
+            "brand": "ESSO",
+            "address": "Eastbourne Road, POLEGATE",
+            "postcode": "BN26 5DD",
+            "location": {
+              "latitude": 50.816717,
+              "longitude": 0.244628
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 146.9,
+              "E10": 131.9
+            }
+          },
+          {
+            "site_id": "gcp9tt98c2gv",
+            "brand": "ESSO",
+            "address": "PULBOROUGH ROAD, STORRINGTON",
+            "postcode": "RH20 4HJ",
+            "location": {
+              "latitude": 50.919018,
+              "longitude": -0.459307
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcpvv43033e9",
+            "brand": "ESSO",
+            "address": "BRAMLEY ROAD, SOUTHGATE, LONDON",
+            "postcode": "N14 4XA",
+            "location": {
+              "latitude": 51.648153,
+              "longitude": -0.130404
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcpyb4rgtusm",
+            "brand": "ESSO",
+            "address": "LOWER LUTON ROAD, BATFORD, HARPENDEN",
+            "postcode": "AL5 5AL",
+            "location": {
+              "latitude": 51.824509,
+              "longitude": -0.340667
+            },
+            "prices": {
+              "E10": 132.9,
+              "E5": 147.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "gcpu39c3rv0p",
+            "brand": "ESSO",
+            "address": "THE BROADWAY, TOLWORTH",
+            "postcode": "KT6 7DQ",
+            "location": {
+              "latitude": 51.381926,
+              "longitude": -0.283595
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcqenfr9c2h3",
+            "brand": "ESSO",
+            "address": "WHITEHOUSE COMMON ROAD, SUTTON COLDFIELD",
+            "postcode": "B75 6HD",
+            "location": {
+              "latitude": 52.571254,
+              "longitude": -1.802385
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "SDV": 154.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcqdy7ktef5v",
+            "brand": "ESSO",
+            "address": "Sutton Road, BIRMINGHAM",
+            "postcode": "B23 5TW",
+            "location": {
+              "latitude": 52.533457,
+              "longitude": -1.828371
+            },
+            "prices": {
+              "B7": 139.9,
+              "E5": 143.9,
+              "E10": 128.9
+            }
+          },
+          {
+            "site_id": "gcrg4wbv0qhj",
+            "brand": "ESSO",
+            "address": "Welland Road, PETERBOROUGH",
+            "postcode": "PE1 3SA",
+            "location": {
+              "latitude": 52.596564,
+              "longitude": -0.240653
+            },
+            "prices": {
+              "E10": 129.9,
+              "E5": 144.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcqkrck0mvu4",
+            "brand": "ESSO",
+            "address": "WOLVERHAMPTON ROAD, STAFFORD",
+            "postcode": "ST17 9DH",
+            "location": {
+              "latitude": 52.785261,
+              "longitude": -2.114616
+            },
+            "prices": {
+              "B7": 138.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcpmz3edbx04",
+            "brand": "ESSO",
+            "address": "Amersham Road, HIGH WYCOMBE",
+            "postcode": "HP13 5AP",
+            "location": {
+              "latitude": 51.644492,
+              "longitude": -0.731256
+            },
+            "prices": {
+              "E10": 133.9,
+              "E5": 148.9,
+              "B7": 143.9,
+              "SDV": 157.9
+            }
+          },
+          {
+            "site_id": "gcpmwsd523rc",
+            "brand": "ESSO",
+            "address": "Marlow Road, HIGH WYCOMBE",
+            "postcode": "HP11 1TA",
+            "location": {
+              "latitude": 51.617081,
+              "longitude": -0.766275
+            },
+            "prices": {
+              "SDV": 156.9,
+              "B7": 142.9,
+              "E5": 147.9,
+              "E10": 132.9
+            }
+          },
+          {
+            "site_id": "gcw2g78587zy",
+            "brand": "ESSO",
+            "address": "Bolton Road, BURY",
+            "postcode": "BL8 2NZ",
+            "location": {
+              "latitude": 53.589184,
+              "longitude": -2.318094
+            },
+            "prices": {
+              "E10": 128.9,
+              "E5": 143.9,
+              "B7": 136.9,
+              "SDV": 150.9
+            }
+          },
+          {
+            "site_id": "gcjf1x57u1hp",
+            "brand": "ESSO",
+            "address": "30-33 EAST REACH, TAUNTON",
+            "postcode": "TA1 3ES",
+            "location": {
+              "latitude": 51.015665,
+              "longitude": -3.093504
+            },
+            "prices": {
+              "SDV": 151.9,
+              "B7": 137.9,
+              "E5": 144.9,
+              "E10": 129.9
+            }
+          },
+          {
+            "site_id": "gcnhz816pts1",
+            "brand": "ESSO",
+            "address": "DEANERY ROAD, KINGSWOOD, BRISTOL",
+            "postcode": "BS15 9JB",
+            "location": {
+              "latitude": 51.460334,
+              "longitude": -2.480866
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcnhycetz3pv",
+            "brand": "ESSO",
+            "address": "SOUNDWELL ROAD, BRISTOL",
+            "postcode": "BS15 1PN",
+            "location": {
+              "latitude": 51.469194,
+              "longitude": -2.510741
+            },
+            "prices": {
+              "SDV": 153.9,
+              "B7": 139.9,
+              "E5": 145.9,
+              "E10": 130.9
+            }
+          },
+          {
+            "site_id": "gcpvhzwfufh3",
+            "brand": "ESSO",
+            "address": "Camden Road, LONDON",
+            "postcode": "NW1 9HG",
+            "location": {
+              "latitude": 51.545588,
+              "longitude": -0.133343
+            },
+            "prices": {
+              "E10": 129.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcpk8v4yt026",
+            "brand": "ESSO",
+            "address": "Bath Road, READING",
+            "postcode": "RG30 2EU",
+            "location": {
+              "latitude": 51.444599,
+              "longitude": -1.017737
+            },
+            "prices": {
+              "B7": 138.9,
+              "SDV": 152.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcpkf53jpezv",
+            "brand": "ESSO",
+            "address": "BUCKINGHAM DRIVE, READING",
+            "postcode": "RG4 8RZ",
+            "location": {
+              "latitude": 51.478693,
+              "longitude": -0.965091
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "u134qxjv4f8p",
+            "brand": "ESSO",
+            "address": "Beccles Road, LOWESTOFT",
+            "postcode": "NR33 8QY",
+            "location": {
+              "latitude": 52.466083,
+              "longitude": 1.699909
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcrnhzkbr3s0",
+            "brand": "ESSO",
+            "address": "NOTTINGHAM ROAD, MANSFIELD",
+            "postcode": "NG18 4SG",
+            "location": {
+              "latitude": 53.125814,
+              "longitude": -1.19067
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "SDV": 154.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcr6pg1qhkev",
+            "brand": "ESSO",
+            "address": "92 WINDMILL AVENUE, NORTHATNS",
+            "postcode": "NN16 0RD",
+            "location": {
+              "latitude": 52.400347,
+              "longitude": -0.712207
+            },
+            "prices": {
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "u10qjqttx4ef",
+            "brand": "ESSO",
+            "address": "MALDON ROAD, DANBURY, ESSEX",
+            "postcode": "CM3 4QW",
+            "location": {
+              "latitude": 51.716351,
+              "longitude": 0.590134
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcpchqyfthzc",
+            "brand": "ESSO",
+            "address": "DYKE ROAD, HOVE",
+            "postcode": "BN3 6NF",
+            "location": {
+              "latitude": 50.838315,
+              "longitude": -0.1553
+            },
+            "prices": {
+              "SDV": 155.9,
+              "B7": 141.9,
+              "E10": 134.9,
+              "E5": 149.9
+            }
+          },
+          {
+            "site_id": "gcrspqv2m6rb",
+            "brand": "ESSO",
+            "address": "North Street, BOURNE",
+            "postcode": "PE10 9AQ",
+            "location": {
+              "latitude": 52.771509,
+              "longitude": -0.377076
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcrk5xj5tbs4",
+            "brand": "ESSO",
+            "address": "NOTTINGHAM RD, MELTON MOWBRAY",
+            "postcode": "LE13 0NR",
+            "location": {
+              "latitude": 52.773431,
+              "longitude": -0.89376
+            },
+            "prices": {
+              "SDV": 155.9,
+              "B7": 141.9,
+              "E10": 135.9,
+              "E5": 150.9
+            }
+          },
+          {
+            "site_id": "gcwbns7mwf85",
+            "brand": "ESSO",
+            "address": "BURNCROSS ROAD, SHEFFIELD",
+            "postcode": "S35 1RX",
+            "location": {
+              "latitude": 53.461804,
+              "longitude": -1.467415
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 139.9,
+              "SDV": 153.9
+            }
+          },
+          {
+            "site_id": "gcq6wtesp6z8",
+            "brand": "ESSO",
+            "address": "Moss Grove, KINGSWINFORD",
+            "postcode": "DY6 9HP",
+            "location": {
+              "latitude": 52.501617,
+              "longitude": -2.170165
+            },
+            "prices": {
+              "B7": 139.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gfnt0mcxbvxz",
+            "brand": "ESSO",
+            "address": "472-480 KING STREET, ABERDEEN",
+            "postcode": "AB24 3DF",
+            "location": {
+              "latitude": 57.161853,
+              "longitude": -2.096286
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "gbypzkqu0grz",
+            "brand": "ESSO",
+            "address": "LANEHOUSE ROCKS ROAD, WEYMOUTH",
+            "postcode": "DT4 9DJ",
+            "location": {
+              "latitude": 50.605106,
+              "longitude": -2.484584
+            },
+            "prices": {
+              "B7": 144.9,
+              "SDV": 158.9,
+              "E10": 134.9,
+              "E5": 149.9
+            }
+          },
+          {
+            "site_id": "u10jwsefwug9",
+            "brand": "ESSO",
+            "address": "6 LONDON ROAD, BRENTWOOD, ESSEX",
+            "postcode": "CM14 4QG",
+            "location": {
+              "latitude": 51.616971,
+              "longitude": 0.291089
+            },
+            "prices": {
+              "E5": 147.9,
+              "E10": 132.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "u10t0weguyzz",
+            "brand": "ESSO",
+            "address": "Southchurch Road, SOUTHEND-ON-SEA",
+            "postcode": "SS1 2QA",
+            "location": {
+              "latitude": 51.540293,
+              "longitude": 0.730462
+            },
+            "prices": {
+              "B7": 144.9,
+              "SDV": 158.9,
+              "E10": 135.9,
+              "E5": 150.9
+            }
+          },
+          {
+            "site_id": "u10mqsp3njbp",
+            "brand": "ESSO",
+            "address": "RAYLEIGH ROAD, EASTWOOD",
+            "postcode": "SS9 5PS",
+            "location": {
+              "latitude": 51.570028,
+              "longitude": 0.647421
+            },
+            "prices": {
+              "E5": 148.9,
+              "E10": 133.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "u10mq24m6bz9",
+            "brand": "ESSO",
+            "address": "LONDON RD, LEIGH ON SEA",
+            "postcode": "SS9 2ST",
+            "location": {
+              "latitude": 51.548757,
+              "longitude": 0.629439
+            },
+            "prices": {
+              "B7": 143.9,
+              "SDV": 157.9,
+              "E10": 134.9,
+              "E5": 149.9
+            }
+          },
+          {
+            "site_id": "gcw24rfsdsb0",
+            "brand": "ESSO",
+            "address": "LIVERPOOL ROAD, ECCLES, MANCHESTER",
+            "postcode": "M30 0QN",
+            "location": {
+              "latitude": 53.48087,
+              "longitude": -2.35852
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "u10j2bpjkg5y",
+            "brand": "ESSO",
+            "address": "Romford Road, LONDON",
+            "postcode": "E7 8AF",
+            "location": {
+              "latitude": 51.54877,
+              "longitude": 0.042781
+            },
+            "prices": {
+              "B7": 140.9,
+              "SDV": 154.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcxnd7rq68s5",
+            "brand": "ESSO",
+            "address": "BYPASS ROAD, BILLINGHAM",
+            "postcode": "TS23 1PB",
+            "location": {
+              "latitude": 54.599007,
+              "longitude": -1.297304
+            },
+            "prices": {
+              "E5": 143.9,
+              "E10": 128.9,
+              "SDV": 154.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "u10h8wm90v5g",
+            "brand": "ESSO",
+            "address": "Sidcup Road, LONDON",
+            "postcode": "SE12 8BL",
+            "location": {
+              "latitude": 51.450547,
+              "longitude": 0.029563
+            },
+            "prices": {
+              "B7": 144.9,
+              "SDV": 158.9,
+              "E10": 133.9,
+              "E5": 148.9
+            }
+          },
+          {
+            "site_id": "gcqdb0rk8y23",
+            "brand": "ESSO",
+            "address": "Highland Road, DUDLEY",
+            "postcode": "DY1 3BS",
+            "location": {
+              "latitude": 52.516828,
+              "longitude": -2.099386
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcpumke8f4ez",
+            "brand": "ESSO",
+            "address": "845-853 London Road, THORNTON HEATH",
+            "postcode": "CR7 6JH",
+            "location": {
+              "latitude": 51.396933,
+              "longitude": -0.115952
+            },
+            "prices": {
+              "B7": 138.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcqmtfjgkvhn",
+            "brand": "ESSO",
+            "address": "Hartshill Road, STOKE-ON-TRENT",
+            "postcode": "ST4 7NH",
+            "location": {
+              "latitude": 53.009619,
+              "longitude": -2.200146
+            },
+            "prices": {
+              "E5": 143.9,
+              "E10": 128.9,
+              "B7": 136.9
+            }
+          },
+          {
+            "site_id": "gcpu6btuk4hk",
+            "brand": "ESSO",
+            "address": "LONDON ROAD, NORTH CHEAM",
+            "postcode": "SM3 9BY",
+            "location": {
+              "latitude": 51.375558,
+              "longitude": -0.222639
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E10": 131.9,
+              "E5": 146.9
+            }
+          },
+          {
+            "site_id": "gcpuq175eh81",
+            "brand": "ESSO",
+            "address": "100 Lower Addiscombe Road, CROYDON",
+            "postcode": "CR0 6AD",
+            "location": {
+              "latitude": 51.379562,
+              "longitude": -0.083642
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "SDV": 152.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "gcrhuzqc2nbh",
+            "brand": "ESSO",
+            "address": "CLIFTON LANE, NOTTINGHAM",
+            "postcode": "NG11 8NA",
+            "location": {
+              "latitude": 52.906288,
+              "longitude": -1.18824
+            },
+            "prices": {
+              "B7": 138.9,
+              "SDV": 152.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcpugeq1ng07",
+            "brand": "ESSO",
+            "address": "KINGS ROAD, FULHAM, LONDON",
+            "postcode": "SW6 2EJ",
+            "location": {
+              "latitude": 51.478002,
+              "longitude": -0.189224
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcpt5vsed6sq",
+            "brand": "ESSO",
+            "address": "UXBRIDGE ROAD, IVER HEATH",
+            "postcode": "SL0 0LR",
+            "location": {
+              "latitude": 51.534734,
+              "longitude": -0.532048
+            },
+            "prices": {
+              "B7": 142.9,
+              "SDV": 156.9,
+              "E10": 135.9,
+              "E5": 150.9
+            }
+          },
+          {
+            "site_id": "gcpur0z557k6",
+            "brand": "ESSO",
+            "address": "WICKHAM ROAD, CROYDON",
+            "postcode": "CR0 8DN",
+            "location": {
+              "latitude": 51.376723,
+              "longitude": -0.034187
+            },
+            "prices": {
+              "E5": 145.9,
+              "E10": 130.9,
+              "SDV": 152.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "gcqdqfbug1zz",
+            "brand": "ESSO",
+            "address": "WARWICK ROAD, OLTON, SOLIHULL",
+            "postcode": "B92 7HS",
+            "location": {
+              "latitude": 52.44269,
+              "longitude": -1.811575
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcpn8esfy5xv",
+            "brand": "ESSO",
+            "address": "A40, WITNEY, EYNSHAM",
+            "postcode": "OX8 1EF",
+            "location": {
+              "latitude": 51.787296,
+              "longitude": -1.377486
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "u10h9nkmztb3",
+            "brand": "ESSO",
+            "address": "39-41 HIGH STREET, ELTHAM, LONDON",
+            "postcode": "SE9 1DH",
+            "location": {
+              "latitude": 51.451366,
+              "longitude": 0.050104
+            },
+            "prices": {
+              "B7": 144.9,
+              "SDV": 158.9,
+              "E10": 132.9,
+              "E5": 147.9
+            }
+          },
+          {
+            "site_id": "gcq6r7ce2rgf",
+            "brand": "ESSO",
+            "address": "Hagley Road, STOURBRIDGE",
+            "postcode": "DY8 1RD",
+            "location": {
+              "latitude": 52.447957,
+              "longitude": -2.140258
+            },
+            "prices": {
+              "E5": 147.9,
+              "E10": 132.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcw26yx3x32m",
+            "brand": "ESSO",
+            "address": "613 BOLTON ROAD, PENDLEBURY",
+            "postcode": "M27 4EJ",
+            "location": {
+              "latitude": 53.517416,
+              "longitude": -2.32982
+            },
+            "prices": {
+              "B7": 138.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcrb02j85n7f",
+            "brand": "ESSO",
+            "address": "SHEFFORD BY PASS (A507), SHEFFORD",
+            "postcode": "SG17 5LD",
+            "location": {
+              "latitude": 52.031284,
+              "longitude": -0.332889
+            },
+            "prices": {
+              "E5": 149.9,
+              "E10": 134.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcybujdxexh7",
+            "brand": "ESSO",
+            "address": "Benton Road, NEWCASTLE UPON TYNE",
+            "postcode": "NE7 7EW",
+            "location": {
+              "latitude": 55.007124,
+              "longitude": -1.578442
+            },
+            "prices": {
+              "B7": 138.9,
+              "SDV": 152.9,
+              "E10": 128.9,
+              "E5": 143.9
+            }
+          },
+          {
+            "site_id": "gcnyw1chw8sh",
+            "brand": "ESSO",
+            "address": "STATION LANE, WITNEY",
+            "postcode": "OX8 6EG",
+            "location": {
+              "latitude": 51.777967,
+              "longitude": -1.492483
+            },
+            "prices": {
+              "E5": 143.9,
+              "E10": 128.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcuvg88stzrv",
+            "brand": "ESSO",
+            "address": "RENFREW ROAD, PAISLEY",
+            "postcode": "PA3 4BG",
+            "location": {
+              "latitude": 55.858051,
+              "longitude": -4.41556
+            },
+            "prices": {
+              "B7": 140.9,
+              "SDV": 154.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcpf8crc05sj",
+            "brand": "ESSO",
+            "address": "Redkiln Way, HORSHAM",
+            "postcode": "RH13 5QH",
+            "location": {
+              "latitude": 51.071511,
+              "longitude": -0.307955
+            },
+            "prices": {
+              "E5": 150.9,
+              "E10": 135.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "gcptek4bus01",
+            "brand": "ESSO",
+            "address": "Gravel Hill, GERRARDS CROSS",
+            "postcode": "SL9 0NP",
+            "location": {
+              "latitude": 51.61392,
+              "longitude": -0.556333
+            },
+            "prices": {
+              "B7": 142.9,
+              "SDV": 156.9,
+              "E10": 131.9,
+              "E5": 146.9
+            }
+          },
+          {
+            "site_id": "gcpyp0ngvthj",
+            "brand": "ESSO",
+            "address": "JCN.BULLSMOOR LANE/HERTFORD RD, WALTHAM CROSS",
+            "postcode": "EN8 7RS",
+            "location": {
+              "latitude": 51.680359,
+              "longitude": -0.034434
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "SDV": 155.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "u10hst9sdu5y",
+            "brand": "ESSO",
+            "address": "DARTFORD RD, DARTFORD",
+            "postcode": "DA1 3EN",
+            "location": {
+              "latitude": 51.447023,
+              "longitude": 0.199937
+            },
+            "prices": {
+              "B7": 143.9,
+              "SDV": 157.9,
+              "E10": 133.9,
+              "E5": 148.9
+            }
+          },
+          {
+            "site_id": "u10j4mm57sb3",
+            "brand": "ESSO",
+            "address": "RIPPLE ROAD, BARKING",
+            "postcode": "IG11 9BG",
+            "location": {
+              "latitude": 51.533329,
+              "longitude": 0.105894
+            },
+            "prices": {
+              "E5": 147.9,
+              "E10": 132.9,
+              "SDV": 155.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "u10j645yx1q5",
+            "brand": "ESSO",
+            "address": "GREEN LANE, ILFORD",
+            "postcode": "IG1 1XR",
+            "location": {
+              "latitude": 51.559961,
+              "longitude": 0.093349
+            },
+            "prices": {
+              "B7": 139.9,
+              "SDV": 153.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcpuq9f0h1s7",
+            "brand": "ESSO",
+            "address": "SHIRLEY ROAD, CROYDON",
+            "postcode": "CR0 7ER",
+            "location": {
+              "latitude": 51.381692,
+              "longitude": -0.062994
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "SDV": 152.9,
+              "B7": 138.9
+            }
+          },
+          {
+            "site_id": "gcpvtze98ee8",
+            "brand": "ESSO",
+            "address": "810 GREENS LANE, LONDON",
+            "postcode": "N21 2SA",
+            "location": {
+              "latitude": 51.633272,
+              "longitude": -0.094044
+            },
+            "prices": {
+              "B7": 138.9,
+              "SDV": 152.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcpvrve587kk",
+            "brand": "ESSO",
+            "address": "LEA BRIDGE ROAD, LONDON",
+            "postcode": "E17 9DZ",
+            "location": {
+              "latitude": 51.578683,
+              "longitude": -0.00685
+            },
+            "prices": {
+              "E5": 147.9,
+              "E10": 132.9,
+              "SDV": 155.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "u10jng8xzkgu",
+            "brand": "ESSO",
+            "address": "NORTH ROAD, SOUTH OCKENDON",
+            "postcode": "RM15 6AJ",
+            "location": {
+              "latitude": 51.524489,
+              "longitude": 0.297634
+            },
+            "prices": {
+              "B7": 141.9,
+              "SDV": 155.9,
+              "E10": 131.9,
+              "E5": 146.9
+            }
+          },
+          {
+            "site_id": "gcpv18g1czpv",
+            "brand": "ESSO",
+            "address": "355/363 UXBRIDGE ROAD, ACTON",
+            "postcode": "W5 3LF",
+            "location": {
+              "latitude": 51.508365,
+              "longitude": -0.281439
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "SDV": 153.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcpu5n12e286",
+            "brand": "ESSO",
+            "address": "MALDEN ROAD, CHEAM, SURREY",
+            "postcode": "SM3 8HY",
+            "location": {
+              "latitude": 51.361173,
+              "longitude": -0.21787
+            },
+            "prices": {
+              "B7": 140.9,
+              "E10": 132.9,
+              "E5": 147.9
+            }
+          },
+          {
+            "site_id": "gcpvzj2w9q24",
+            "brand": "ESSO",
+            "address": "439 HERTFORD ROAD, ENFIELD",
+            "postcode": "EN3 5UT",
+            "location": {
+              "latitude": 51.665731,
+              "longitude": -0.043205
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 138.9,
+              "SDV": 152.9
+            }
+          },
+          {
+            "site_id": "gcqdk5dhxyzf",
+            "brand": "ESSO",
+            "address": "479 BRISTOL RD, BIRMINGHAM",
+            "postcode": "B29 6BA",
+            "location": {
+              "latitude": 52.446793,
+              "longitude": -1.930504
+            },
+            "prices": {
+              "B7": 140.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcr5my8mkb0n",
+            "brand": "ESSO",
+            "address": "FOSSE ROAD, LEICESTER",
+            "postcode": "LE3 5EX",
+            "location": {
+              "latitude": 52.639147,
+              "longitude": -1.153017
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "u10njsfny5xf",
+            "brand": "ESSO",
+            "address": "HIGH STREET, ONGAR",
+            "postcode": "CM5 9AL",
+            "location": {
+              "latitude": 51.706958,
+              "longitude": 0.244714
+            },
+            "prices": {
+              "B7": 142.9,
+              "SDV": 156.9,
+              "E10": 133.9,
+              "E5": 148.9
+            }
+          },
+          {
+            "site_id": "gcpue8hn3frf",
+            "brand": "ESSO",
+            "address": "MERTON ROAD, WIMBLEDON",
+            "postcode": "SW19 1EQ",
+            "location": {
+              "latitude": 51.417101,
+              "longitude": -0.192175
+            },
+            "prices": {
+              "E5": 148.9,
+              "E10": 133.9,
+              "SDV": 154.9,
+              "B7": 140.9
+            }
+          },
+          {
+            "site_id": "gcpusknmry01",
+            "brand": "ESSO",
+            "address": "BALHAM HIGH ROAD, BALHAM",
+            "postcode": "SW17 7BL",
+            "location": {
+              "latitude": 51.438922,
+              "longitude": -0.155879
+            },
+            "prices": {
+              "B7": 142.9,
+              "E10": 134.9,
+              "E5": 149.9
+            }
+          },
+          {
+            "site_id": "u1048wrbnmey",
+            "brand": "ESSO",
+            "address": "LEWES ROAD, FOREST ROW",
+            "postcode": "RH18 5JS",
+            "location": {
+              "latitude": 51.098816,
+              "longitude": 0.032889
+            },
+            "prices": {
+              "E5": 143.9,
+              "E10": 128.9,
+              "B7": 139.9
+            }
+          },
+          {
+            "site_id": "gcpuv3tdr2kh",
+            "brand": "ESSO",
+            "address": "BRIXTON ROAD, STOCKWELL",
+            "postcode": "SW9 7AA",
+            "location": {
+              "latitude": 51.468589,
+              "longitude": -0.11298
+            },
+            "prices": {
+              "B7": 141.9,
+              "E10": 132.9,
+              "E5": 147.9
+            }
+          },
+          {
+            "site_id": "gcuws6z5t6b0",
+            "brand": "ESSO",
+            "address": "135 EAST CLYDE STREET, HELENSBURGH",
+            "postcode": "G84 7AA",
+            "location": {
+              "latitude": 56.00205,
+              "longitude": -4.725269
+            },
+            "prices": {
+              "E5": 147.9,
+              "E10": 132.9,
+              "B7": 141.9
+            }
+          },
+          {
+            "site_id": "gcpvrte4p1xe",
+            "brand": "ESSO",
+            "address": "394 HOE STREET, LONDON",
+            "postcode": "E17 9AA",
+            "location": {
+              "latitude": 51.578416,
+              "longitude": -0.017542
+            },
+            "prices": {
+              "B7": 141.9,
+              "SDV": 155.9,
+              "E10": 132.9,
+              "E5": 147.9
+            }
+          },
+          {
+            "site_id": "gcqe33rdhsuh",
+            "brand": "ESSO",
+            "address": "68 LICHFIELD RD, WILLENHALL, BIRMINGHAM",
+            "postcode": "WV12 5UL",
+            "location": {
+              "latitude": 52.609775,
+              "longitude": -2.043945
+            },
+            "prices": {
+              "E5": 148.9,
+              "E10": 133.9,
+              "SDV": 156.9,
+              "B7": 142.9
+            }
+          },
+          {
+            "site_id": "gcxn5xr9kwu1",
+            "brand": "ESSO",
+            "address": "ACKLAM ROAD, ACKLAM, MIDDLESBOROUGH",
+            "postcode": "TS5 7HL",
+            "location": {
+              "latitude": 54.532264,
+              "longitude": -1.241943
+            },
+            "prices": {
+              "B7": 137.9,
+              "SDV": 152.9,
+              "E10": 127.9,
+              "E5": 142.9
+            }
+          },
+          {
+            "site_id": "gcnqvqgq4vbm",
+            "brand": "ESSO",
+            "address": "EASTERN AVENUE, GLOUCESTER",
+            "postcode": "GL4 6QS",
+            "location": {
+              "latitude": 51.849664,
+              "longitude": -2.225643
+            },
+            "prices": {
+              "E5": 142.9,
+              "E10": 127.9,
+              "SDV": 150.9,
+              "B7": 136.9
+            }
+          },
+          {
+            "site_id": "gcw2b0npu8pu",
+            "brand": "ESSO",
+            "address": "WIGAN ROAD, HASLAM PARK, BOLTON",
+            "postcode": "BL3 5PX",
+            "location": {
+              "latitude": 53.570667,
+              "longitude": -2.452494
+            },
+            "prices": {
+              "B7": 137.9,
+              "E10": 129.9,
+              "E5": 144.9
+            }
+          },
+          {
+            "site_id": "gcqdhp2db32r",
+            "brand": "ESSO",
+            "address": "LINDEN ROAD, BIRMINGHAM",
+            "postcode": "B30 1AP",
+            "location": {
+              "latitude": 52.423118,
+              "longitude": -1.932896
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 139.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcnkxrgr98hj",
+            "brand": "ESSO",
+            "address": "HUNGERDOWN LANE, CHIPPENHAM.",
+            "postcode": "SN14 0JH",
+            "location": {
+              "latitude": 51.459876,
+              "longitude": -2.137801
+            },
+            "prices": {
+              "SDV": 151.9,
+              "B7": 137.9,
+              "E10": 128.9,
+              "E5": 143.9
+            }
+          },
+          {
+            "site_id": "gbvndm8m7r7f",
+            "brand": "ESSO",
+            "address": "137 EGGBUCKLAND ROAD, PLYMOUTH, DEVON",
+            "postcode": "PL3 5JU",
+            "location": {
+              "latitude": 50.392481,
+              "longitude": -4.119385
+            },
+            "prices": {
+              "E5": 148.9,
+              "E10": 133.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcwcy9ggqgxy",
+            "brand": "ESSO",
+            "address": "128 LEEDS ROAD, LEEDS",
+            "postcode": "LS26 0HB",
+            "location": {
+              "latitude": 53.755308,
+              "longitude": -1.466718
+            },
+            "prices": {
+              "SDV": 152.9,
+              "B7": 137.9,
+              "E10": 127.9,
+              "E5": 142.9
+            }
+          },
+          {
+            "site_id": "gcnjph2kvshj",
+            "brand": "ESSO",
+            "address": "HIGH STREET, BRISTOL",
+            "postcode": "BS36 1RB",
+            "location": {
+              "latitude": 51.52809,
+              "longitude": -2.504298
+            },
+            "prices": {
+              "E5": 146.9,
+              "E10": 131.9,
+              "B7": 140.9,
+              "SDV": 154.9
+            }
+          },
+          {
+            "site_id": "gcp41296rv0j",
+            "brand": "ESSO",
+            "address": "134-138 TWYFORD ROAD, EASTLEIGH",
+            "postcode": "SO50 4HP",
+            "location": {
+              "latitude": 50.979723,
+              "longitude": -1.349269
+            },
+            "prices": {
+              "SDV": 153.9,
+              "B7": 139.9,
+              "E10": 130.9,
+              "E5": 145.9
+            }
+          },
+          {
+            "site_id": "gcpvjq4yqbjt",
+            "brand": "ESSO",
+            "address": "219-227, CALEDONIAN RD, LONDON",
+            "postcode": "N1 0SL",
+            "location": {
+              "latitude": 51.537939,
+              "longitude": -0.116776
+            },
+            "prices": {
+              "E5": 144.9,
+              "E10": 129.9,
+              "B7": 141.9,
+              "SDV": 155.9
+            }
+          },
+          {
+            "site_id": "gfnkj62v7fdu",
+            "brand": "ESSO",
+            "address": "KIRKTON RD, STONEHAVEN",
+            "postcode": "AB39 2NQ",
+            "location": {
+              "latitude": 56.9664,
+              "longitude": -2.22903
+            },
+            "prices": {
+              "SDV": 157.9,
+              "B7": 143.9,
+              "E10": 133.9,
+              "E5": 148.9
+            }
+          }
+        ]
+      },
+      "url": "https://fuelprices.esso.co.uk/latestdata.json"
+    },
     {
       "retailer": "bp",
       "status": "success",
       "data": {
-        "last_updated": "07/02/2026 11:00:05",
+        "last_updated": "08/02/2026 11:00:05",
         "stations": [
           {
             "site_id": "gbux3kms73vy",
@@ -4337,3087 +7414,10 @@
       "url": "https://www.bp.com/en_gb/united-kingdom/home/fuelprices/fuel_prices_data.json"
     },
     {
-      "retailer": "Esso Tesco Alliance",
-      "status": "success",
-      "data": {
-        "last_updated": "07/02/2026 00:05:19",
-        "stations": [
-          {
-            "site_id": "gcw2c1djm2gb",
-            "brand": "ESSO",
-            "address": "104 BRADFORD STREET, BOLTON",
-            "postcode": "BL2 1JR",
-            "location": {
-              "latitude": 53.578481,
-              "longitude": -2.414015
-            },
-            "prices": {
-              "B7": 137.9,
-              "SDV": 151.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcw9tpts8jzw",
-            "brand": "ESSO",
-            "address": "KEIGHLEY ROAD, HALIFAX",
-            "postcode": "HX2 8BA",
-            "location": {
-              "latitude": 53.743175,
-              "longitude": -1.882085
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "SDV": 155.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcpkj675bcpz",
-            "brand": "ESSO",
-            "address": "Reading Road, YATELEY",
-            "postcode": "GU46 7UH",
-            "location": {
-              "latitude": 51.341135,
-              "longitude": -0.819812
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gctc5z1n97k4",
-            "brand": "ESSO",
-            "address": "5 ALBERT ROAD, SOUTHPORT",
-            "postcode": "PR9 0LR",
-            "location": {
-              "latitude": 53.652867,
-              "longitude": -2.997835
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "SDV": 151.9,
-              "B7": 137.9
-            }
-          },
-          {
-            "site_id": "gctck8bvph80",
-            "brand": "ESSO",
-            "address": "Preston New Road, SOUTHPORT",
-            "postcode": "PR9 8PD",
-            "location": {
-              "latitude": 53.662229,
-              "longitude": -2.964978
-            },
-            "prices": {
-              "B7": 137.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcunu2wx202n",
-            "brand": "ESSO",
-            "address": "PATERSON STREET, LOCHGILPHEAD",
-            "postcode": "PA31 8JP",
-            "location": {
-              "latitude": 56.034267,
-              "longitude": -5.429306
-            },
-            "prices": {
-              "E5": 149.9,
-              "E10": 134.9,
-              "B7": 143.9,
-              "SDV": 157.9
-            }
-          },
-          {
-            "site_id": "gcn8xj2rxehh",
-            "brand": "ESSO",
-            "address": "Barrack Road, CHRISTCHURCH",
-            "postcode": "BH23 2AY",
-            "location": {
-              "latitude": 50.743034,
-              "longitude": -1.801087
-            },
-            "prices": {
-              "B7": 141.9,
-              "E10": 131.9,
-              "E5": 146.9
-            }
-          },
-          {
-            "site_id": "gcptrej1s0gf",
-            "brand": "ESSO",
-            "address": "Alexandra Avenue, SOUTH HARROW",
-            "postcode": "HA2 9DL",
-            "location": {
-              "latitude": 51.564593,
-              "longitude": -0.366492
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcuvv5y0ryzz",
-            "brand": "ESSO",
-            "address": "1329 DUMBARTON ROAD., GLASGOW",
-            "postcode": "G14 9UY",
-            "location": {
-              "latitude": 55.875172,
-              "longitude": -4.342003
-            },
-            "prices": {
-              "E10": 132.9,
-              "E5": 147.9,
-              "B7": 141.9,
-              "SDV": 155.9
-            }
-          },
-          {
-            "site_id": "gcpv5u7mf88n",
-            "brand": "ESSO",
-            "address": "Maida Vale, LONDON",
-            "postcode": "W9 1UP",
-            "location": {
-              "latitude": 51.528243,
-              "longitude": -0.182197
-            },
-            "prices": {
-              "SDV": 158.9,
-              "B7": 142.9,
-              "E5": 148.9,
-              "E10": 133.9
-            }
-          },
-          {
-            "site_id": "gcwdn27ywjxv",
-            "brand": "ESSO",
-            "address": "THORNTON ROAD, BRADFORD",
-            "postcode": "BD13 3DG",
-            "location": {
-              "latitude": 53.791582,
-              "longitude": -1.829299
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcq6h2mc99fr",
-            "brand": "ESSO",
-            "address": "BEWDLEY HILL, KIDDERMINSTER",
-            "postcode": "DY11 6BS",
-            "location": {
-              "latitude": 52.384454,
-              "longitude": -2.266206
-            },
-            "prices": {
-              "SDV": 159.9,
-              "B7": 144.9,
-              "E5": 150.9,
-              "E10": 135.9
-            }
-          },
-          {
-            "site_id": "gcw2jqhb498j",
-            "brand": "ESSO",
-            "address": "ARDWICK GREEN, ARDWICK",
-            "postcode": "M13 9XF",
-            "location": {
-              "latitude": 53.470468,
-              "longitude": -2.223594
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "B7": 137.9,
-              "SDV": 151.9
-            }
-          },
-          {
-            "site_id": "gcq8797sjuef",
-            "brand": "ESSO",
-            "address": "47 CHELTENHAM ROAD, EVESHAM",
-            "postcode": "WR11 6LD",
-            "location": {
-              "latitude": 52.082773,
-              "longitude": -1.950508
-            },
-            "prices": {
-              "SDV": 155.9,
-              "B7": 140.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcq2vgghyg87",
-            "brand": "ESSO",
-            "address": "London Road, WORCESTER",
-            "postcode": "WR5 2EL",
-            "location": {
-              "latitude": 52.18452,
-              "longitude": -2.203842
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcuvsy6e832p",
-            "brand": "ESSO",
-            "address": "2199 PAISLEY ROAD WEST, GLASGOW",
-            "postcode": "G52 3QA",
-            "location": {
-              "latitude": 55.845488,
-              "longitude": -4.358128
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcpugu0tn00q",
-            "brand": "ESSO",
-            "address": "Fulham Road, LONDON",
-            "postcode": "SW10 9UZ",
-            "location": {
-              "latitude": 51.482793,
-              "longitude": -0.185823
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcx9y1s6r7rf",
-            "brand": "ESSO",
-            "address": "Kingston Road, HULL",
-            "postcode": "HU10 6NB",
-            "location": {
-              "latitude": 53.753761,
-              "longitude": -0.433295
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcx9wmutznxg",
-            "brand": "ESSO",
-            "address": "1/13 BOOTHFERRY ROAD, HESSLE, HULL",
-            "postcode": "HU13 9AZ",
-            "location": {
-              "latitude": 53.73378,
-              "longitude": -0.421976
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcncrcdh7124",
-            "brand": "ESSO",
-            "address": "Beaulieu Road, SOUTHAMPTON",
-            "postcode": "SO45 4JH",
-            "location": {
-              "latitude": 50.853703,
-              "longitude": -1.414361
-            },
-            "prices": {
-              "B7": 140.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcwfj7becneg",
-            "brand": "ESSO",
-            "address": "ROUNDHAY ROAD, LEEDS",
-            "postcode": "LS7 1QR",
-            "location": {
-              "latitude": 53.810341,
-              "longitude": -1.526365
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcptjh08nv0p",
-            "brand": "ESSO",
-            "address": "High Street, UXBRIDGE",
-            "postcode": "UB8 2HS",
-            "location": {
-              "latitude": 51.525907,
-              "longitude": -0.482422
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcp1pg0d1pb4",
-            "brand": "ESSO",
-            "address": "Copnor Road, PORTSMOUTH",
-            "postcode": "PO3 5EE",
-            "location": {
-              "latitude": 50.817646,
-              "longitude": -1.064944
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcwdz1kw5g00",
-            "brand": "ESSO",
-            "address": "RIVERSIDE, BEN RHYDDING, ILKLEY",
-            "postcode": "LS29 8BS",
-            "location": {
-              "latitude": 53.928811,
-              "longitude": -1.795417
-            },
-            "prices": {
-              "B7": 138.9,
-              "E5": 143.9,
-              "E10": 128.9
-            }
-          },
-          {
-            "site_id": "gcw2vskh51s4",
-            "brand": "ESSO",
-            "address": "YORK STREET, HEYWOOD",
-            "postcode": "OL10 4NS",
-            "location": {
-              "latitude": 53.593377,
-              "longitude": -2.213611
-            },
-            "prices": {
-              "E10": 127.9,
-              "B7": 137.9,
-              "SDV": 151.9
-            }
-          },
-          {
-            "site_id": "gcvjv63yuc2h",
-            "brand": "ESSO",
-            "address": "24 High Street, AIRDRIE",
-            "postcode": "ML6 0DU",
-            "location": {
-              "latitude": 55.868018,
-              "longitude": -3.98543
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcnjj25n0zbp",
-            "brand": "ESSO",
-            "address": "73-75 Gloucester Road North, BRISTOL",
-            "postcode": "BS34 7PL",
-            "location": {
-              "latitude": 51.504979,
-              "longitude": -2.577635
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcqq08vks5kh",
-            "brand": "ESSO",
-            "address": "STATION APPROACH, CHESHIRE",
-            "postcode": "CW1 3RD",
-            "location": {
-              "latitude": 53.090848,
-              "longitude": -2.431578
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E10": 133.9,
-              "E5": 148.9
-            }
-          },
-          {
-            "site_id": "gcrjmkb811rz",
-            "brand": "ESSO",
-            "address": "Valley Road, NOTTINGHAM",
-            "postcode": "NG5 1JJ",
-            "location": {
-              "latitude": 52.980202,
-              "longitude": -1.174797
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcqyzjgnehrz",
-            "brand": "ESSO",
-            "address": "Newbold Road, CHESTERFIELD",
-            "postcode": "S41 7AL",
-            "location": {
-              "latitude": 53.250499,
-              "longitude": -1.445936
-            },
-            "prices": {
-              "SDV": 157.9,
-              "B7": 142.9,
-              "E10": 133.9,
-              "E5": 148.9
-            }
-          },
-          {
-            "site_id": "gcjvt0epytgc",
-            "brand": "ESSO",
-            "address": "CHEPSTOW ROAD, NEWPORT",
-            "postcode": "NP19 9EZ",
-            "location": {
-              "latitude": 51.595905,
-              "longitude": -2.939932
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcqwutbw3zpd",
-            "brand": "ESSO",
-            "address": "LONDON ROAD, BUXTON",
-            "postcode": "SK17 9NW",
-            "location": {
-              "latitude": 53.25047,
-              "longitude": -1.910849
-            },
-            "prices": {
-              "B7": 143.9,
-              "E10": 135.9
-            }
-          },
-          {
-            "site_id": "gcqvp4xpufxb",
-            "brand": "ESSO",
-            "address": "Nottingham Road, DERBY",
-            "postcode": "DE21 6NA",
-            "location": {
-              "latitude": 52.925233,
-              "longitude": -1.440368
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "B7": 137.9,
-              "SDV": 151.9
-            }
-          },
-          {
-            "site_id": "gcmzzbu57veb",
-            "brand": "ESSO",
-            "address": "CRONTON ROAD, TARBOCK",
-            "postcode": "L35 1QY",
-            "location": {
-              "latitude": 53.398262,
-              "longitude": -2.817827
-            },
-            "prices": {
-              "SDV": 156.9,
-              "B7": 141.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcrn5ehyds5s",
-            "brand": "ESSO",
-            "address": "Lowmoor Road, NOTTINGHAM",
-            "postcode": "NG17 7JE",
-            "location": {
-              "latitude": 53.103555,
-              "longitude": -1.245806
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcq04s6eq0gw",
-            "brand": "ESSO",
-            "address": "Ledbury Road, HEREFORD",
-            "postcode": "HR1 2TB",
-            "location": {
-              "latitude": 52.055159,
-              "longitude": -2.698941
-            },
-            "prices": {
-              "SDV": 159.9,
-              "B7": 144.9,
-              "E5": 149.9,
-              "E10": 134.9
-            }
-          },
-          {
-            "site_id": "gcvy28ge0xe8",
-            "brand": "ESSO",
-            "address": "Willowbrae Road, EDINBURGH",
-            "postcode": "EH8 7NG",
-            "location": {
-              "latitude": 55.947058,
-              "longitude": -3.137257
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "u10jkq0p40zu",
-            "brand": "ESSO",
-            "address": "MAIN ROAD, ROMFORD,",
-            "postcode": "RM1 3BT",
-            "location": {
-              "latitude": 51.582017,
-              "longitude": 0.186864
-            },
-            "prices": {
-              "B7": 140.9,
-              "SDV": 154.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcybphyz0b0m",
-            "brand": "ESSO",
-            "address": "SILKSWORTH ROAD, SUNDERLAND",
-            "postcode": "SR3 3PN",
-            "location": {
-              "latitude": 54.871045,
-              "longitude": -1.440893
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcpvu1ykug2j",
-            "brand": "ESSO",
-            "address": "EAST BARNET ROAD, EAST BARNET",
-            "postcode": "EN4 8RD",
-            "location": {
-              "latitude": 51.646189,
-              "longitude": -0.166994
-            },
-            "prices": {
-              "B7": 139.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcqzt5jkbzg8",
-            "brand": "ESSO",
-            "address": "FULWOOD ROAD, SHEFFIELD",
-            "postcode": "S10 3QA",
-            "location": {
-              "latitude": 53.366946,
-              "longitude": -1.530839
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 139.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcw0k1u0r8uk",
-            "brand": "ESSO",
-            "address": "BOLTON ROAD, ASHTON-IN MAKERFIELD",
-            "postcode": "WN4 8PF",
-            "location": {
-              "latitude": 53.491106,
-              "longitude": -2.630898
-            },
-            "prices": {
-              "B7": 138.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcpcnnrqt359",
-            "brand": "ESSO",
-            "address": "10-18 Warren Road, BRIGHTON",
-            "postcode": "BN2 6BB",
-            "location": {
-              "latitude": 50.836235,
-              "longitude": -0.077704
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcpsyrmh80ef",
-            "brand": "ESSO",
-            "address": "North Hyde Road, HAYES",
-            "postcode": "UB3 4NE",
-            "location": {
-              "latitude": 51.500562,
-              "longitude": -0.421595
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcw6j7g0tkk5",
-            "brand": "ESSO",
-            "address": "Casterton Avenue, BURNLEY",
-            "postcode": "BB10 2PA",
-            "location": {
-              "latitude": 53.809771,
-              "longitude": -2.225874
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 136.9
-            }
-          },
-          {
-            "site_id": "u10k7mktrekj",
-            "brand": "ESSO",
-            "address": "FRINDSBURY ROAD, STROOD",
-            "postcode": "ME2 4JD",
-            "location": {
-              "latitude": 51.401829,
-              "longitude": 0.500892
-            },
-            "prices": {
-              "B7": 142.9,
-              "SDV": 156.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcj88391b8vz",
-            "brand": "ESSO",
-            "address": "85 Fore Street, EXETER",
-            "postcode": "EX1 2RN",
-            "location": {
-              "latitude": 50.721436,
-              "longitude": -3.503236
-            },
-            "prices": {
-              "E10": 134.9,
-              "E5": 149.9,
-              "B7": 143.9
-            }
-          },
-          {
-            "site_id": "u10h6t4xmr0h",
-            "brand": "ESSO",
-            "address": "Sevenoaks Way, ORPINGTON",
-            "postcode": "BR5 3AQ",
-            "location": {
-              "latitude": 51.400819,
-              "longitude": 0.113522
-            },
-            "prices": {
-              "B7": 142.9,
-              "SDV": 156.9
-            }
-          },
-          {
-            "site_id": "gcnhmz870zgd",
-            "brand": "ESSO",
-            "address": "WELLS ROAD, WHITCHURCH, BRISTOL",
-            "postcode": "BS14 9HY",
-            "location": {
-              "latitude": 51.413826,
-              "longitude": -2.559434
-            },
-            "prices": {
-              "SDV": 152.9,
-              "B7": 138.9,
-              "E5": 143.9,
-              "E10": 128.9
-            }
-          },
-          {
-            "site_id": "gcnk4j5w81p8",
-            "brand": "ESSO",
-            "address": "MIDFORD ROAD, BATH",
-            "postcode": "BA2 5RU",
-            "location": {
-              "latitude": 51.356712,
-              "longitude": -2.36823
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcqe21wxt6xx",
-            "brand": "ESSO",
-            "address": "Cannock Road, WOLVERHAMPTON",
-            "postcode": "WV10 8PN",
-            "location": {
-              "latitude": 52.612081,
-              "longitude": -2.100213
-            },
-            "prices": {
-              "B7": 141.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcqg1xwwufgb",
-            "brand": "ESSO",
-            "address": "HIGH STREET, TAMWORTH",
-            "postcode": "B77 1LE",
-            "location": {
-              "latitude": 52.600966,
-              "longitude": -1.682759
-            },
-            "prices": {
-              "E10": 132.9,
-              "E5": 147.9,
-              "B7": 142.9,
-              "SDV": 156.9
-            }
-          },
-          {
-            "site_id": "gcrpbx9f5mk0",
-            "brand": "ESSO",
-            "address": "WORTLEY ROAD, ROTHERHAM",
-            "postcode": "S61 1LH",
-            "location": {
-              "latitude": 53.435125,
-              "longitude": -1.381729
-            },
-            "prices": {
-              "SDV": 152.9,
-              "B7": 138.9,
-              "E5": 142.9,
-              "E10": 127.9
-            }
-          },
-          {
-            "site_id": "gfn4g2nvpx24",
-            "brand": "ESSO",
-            "address": "CLERK STREET, BRECHIN",
-            "postcode": "DD9 6AY",
-            "location": {
-              "latitude": 56.734296,
-              "longitude": -2.660086
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "gcp7thm3ju23",
-            "brand": "ESSO",
-            "address": "READING ROAD STH, FLEET, CROOKHAM",
-            "postcode": "GU52 6AB",
-            "location": {
-              "latitude": 51.263775,
-              "longitude": -0.827504
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "u10h86zrbpz9",
-            "brand": "ESSO",
-            "address": "Baring Road, LONDON",
-            "postcode": "SE12 0DU",
-            "location": {
-              "latitude": 51.432494,
-              "longitude": 0.020953
-            },
-            "prices": {
-              "E10": 132.9,
-              "E5": 147.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "gcpu474f2dpg",
-            "brand": "ESSO",
-            "address": "Ewell By Pass, EPSOM",
-            "postcode": "KT17 1PG",
-            "location": {
-              "latitude": 51.345002,
-              "longitude": -0.248877
-            },
-            "prices": {
-              "B7": 140.9,
-              "SDV": 154.9,
-              "E5": 148.9,
-              "E10": 133.9
-            }
-          },
-          {
-            "site_id": "u10h259xkwgt",
-            "brand": "ESSO",
-            "address": "Westmoreland Road, BROMLEY",
-            "postcode": "BR2 0UJ",
-            "location": {
-              "latitude": 51.392578,
-              "longitude": 0.002258
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "SDV": 152.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "gcpuwskxx1kr",
-            "brand": "ESSO",
-            "address": "LONDON ROAD, LONDON",
-            "postcode": "SE23 3PE",
-            "location": {
-              "latitude": 51.440657,
-              "longitude": -0.059432
-            },
-            "prices": {
-              "B7": 140.9,
-              "SDV": 154.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcpsh3rqfdu2",
-            "brand": "ESSO",
-            "address": "OLD WOKING RD, WEST BYFLEET",
-            "postcode": "KT14 6JA",
-            "location": {
-              "latitude": 51.336165,
-              "longitude": -0.506288
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "u10k6vt9cqwn",
-            "brand": "ESSO",
-            "address": "GRAVESEND ROAD, STROOD",
-            "postcode": "ME2 3PW",
-            "location": {
-              "latitude": 51.402619,
-              "longitude": 0.480027
-            },
-            "prices": {
-              "B7": 142.9,
-              "SDV": 156.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gfjcr0mwzt23",
-            "brand": "ESSO",
-            "address": "14A DALHOUSIE ROAD, BROUGHTY FERRY",
-            "postcode": "DD5 2SQ",
-            "location": {
-              "latitude": 56.472287,
-              "longitude": -2.84857
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcvq9db1fdr9",
-            "brand": "ESSO",
-            "address": "Camelon Road, FALKIRK",
-            "postcode": "FK1 5BS",
-            "location": {
-              "latitude": 56.001747,
-              "longitude": -3.801152
-            },
-            "prices": {
-              "B7": 138.9,
-              "SDV": 152.9,
-              "E5": 143.9,
-              "E10": 128.9
-            }
-          },
-          {
-            "site_id": "gcpx5yww627f",
-            "brand": "ESSO",
-            "address": "HIGH STREET NORTH, DUNSTABLE",
-            "postcode": "LU6 1LW",
-            "location": {
-              "latitude": 51.892249,
-              "longitude": -0.529302
-            },
-            "prices": {
-              "E10": 127.9,
-              "E5": 142.9,
-              "SDV": 149.9,
-              "B7": 135.9
-            }
-          },
-          {
-            "site_id": "gcjjgfkze1eu",
-            "brand": "ESSO",
-            "address": "62 Brynymor Road, SWANSEA",
-            "postcode": "SA4 3EZ",
-            "location": {
-              "latitude": 51.649398,
-              "longitude": -4.047298
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "gcjqm7v1chzt",
-            "brand": "ESSO",
-            "address": "NEATH ROAD, NEATH",
-            "postcode": "SA11 5EW",
-            "location": {
-              "latitude": 51.744559,
-              "longitude": -3.629555
-            },
-            "prices": {
-              "E10": 132.9,
-              "E5": 147.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "u103e5zrwt04",
-            "brand": "ESSO",
-            "address": "BATTLE HILL, BATTLE",
-            "postcode": "TN33 0BG",
-            "location": {
-              "latitude": 50.910586,
-              "longitude": 0.493634
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "gcw2jkmcrqbp",
-            "brand": "ESSO",
-            "address": "257 UPPER BROOK STREET, MANCHESTER",
-            "postcode": "M13 0HL",
-            "location": {
-              "latitude": 53.461098,
-              "longitude": -2.222017
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "SDV": 151.9,
-              "B7": 137.9
-            }
-          },
-          {
-            "site_id": "gcr5m6pcpkgd",
-            "brand": "ESSO",
-            "address": "NARBOROUGH RD, LEICESTER",
-            "postcode": "LE3 3FU",
-            "location": {
-              "latitude": 52.613723,
-              "longitude": -1.164578
-            },
-            "prices": {
-              "B7": 141.9,
-              "SDV": 155.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcqed5exrugg",
-            "brand": "ESSO",
-            "address": "Walsall Road, GREAT WYRLEY",
-            "postcode": "WS6 6LA",
-            "location": {
-              "latitude": 52.666981,
-              "longitude": -2.01634
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "SDV": 152.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "gcqe30cvv8uj",
-            "brand": "ESSO",
-            "address": "Lichfield Road, WOLVERHAMPTON",
-            "postcode": "WV11 3HD",
-            "location": {
-              "latitude": 52.607651,
-              "longitude": -2.062785
-            },
-            "prices": {
-              "B7": 142.9,
-              "E5": 148.9,
-              "E10": 133.9
-            }
-          },
-          {
-            "site_id": "gcq6c5etqqs4",
-            "brand": "ESSO",
-            "address": "CANN HALL ROAD, BRIDGNORTH",
-            "postcode": "WV15 5AP",
-            "location": {
-              "latitude": 52.534811,
-              "longitude": -2.411912
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "B7": 142.9,
-              "SDV": 157.9
-            }
-          },
-          {
-            "site_id": "gcr3hnvgd65f",
-            "brand": "ESSO",
-            "address": "WELLINGBOROUGH ROAD, ABINGTON, NORTHANTS",
-            "postcode": "NN1 4EY",
-            "location": {
-              "latitude": 52.244722,
-              "longitude": -0.870908
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "u10kbkh7zvbh",
-            "brand": "ESSO",
-            "address": "Brentwood Road, CHADWELL ST MARY",
-            "postcode": "RM16 4JD",
-            "location": {
-              "latitude": 51.482609,
-              "longitude": 0.368718
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "B7": 141.9,
-              "SDV": 155.9
-            }
-          },
-          {
-            "site_id": "gcpuebqrebsj",
-            "brand": "ESSO",
-            "address": "HIGH STREET, COLLIERS WOOD, LONDON",
-            "postcode": "SW19 2BN",
-            "location": {
-              "latitude": 51.41868,
-              "longitude": -0.178018
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E5": 148.9,
-              "E10": 133.9
-            }
-          },
-          {
-            "site_id": "gbvrpw13me8j",
-            "brand": "ESSO",
-            "address": "Teignmouth Road, TORQUAY",
-            "postcode": "TQ1 4RY",
-            "location": {
-              "latitude": 50.482412,
-              "longitude": -3.535645
-            },
-            "prices": {
-              "E10": 131.9,
-              "E5": 146.9,
-              "B7": 141.9,
-              "SDV": 155.9
-            }
-          },
-          {
-            "site_id": "gcpsgpe4tgkh",
-            "brand": "ESSO",
-            "address": "London Road, SLOUGH",
-            "postcode": "SL3 7HR",
-            "location": {
-              "latitude": 51.501607,
-              "longitude": -0.566917
-            },
-            "prices": {
-              "SDV": 156.9,
-              "B7": 142.9,
-              "E5": 150.9,
-              "E10": 135.9
-            }
-          },
-          {
-            "site_id": "gcybyx6fet5g",
-            "brand": "ESSO",
-            "address": "Beach Road, NORTH SHIELDS",
-            "postcode": "NE29 9AE",
-            "location": {
-              "latitude": 55.015868,
-              "longitude": -1.468236
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcybf0pjp2s2",
-            "brand": "ESSO",
-            "address": "West Road, NEWCASTLE UPON TYNE",
-            "postcode": "NE15 6PQ",
-            "location": {
-              "latitude": 54.976447,
-              "longitude": -1.659992
-            },
-            "prices": {
-              "B7": 139.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcnhusg8c5rf",
-            "brand": "ESSO",
-            "address": "Henleaze Road, BRISTOL",
-            "postcode": "BS9 4NB",
-            "location": {
-              "latitude": 51.4862,
-              "longitude": -2.609886
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcwgjvbesz87",
-            "brand": "ESSO",
-            "address": "KNARESBOROUGH ROAD, HARROGATE",
-            "postcode": "HG2 7HY",
-            "location": {
-              "latitude": 53.997071,
-              "longitude": -1.504236
-            },
-            "prices": {
-              "B7": 142.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcwfjnehg85e",
-            "brand": "ESSO",
-            "address": "HARROGATE ROAD, LEEDS",
-            "postcode": "LS7 4LA",
-            "location": {
-              "latitude": 53.825584,
-              "longitude": -1.533811
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcwc7q1znw79",
-            "brand": "ESSO",
-            "address": "WAKEFIELD ROAD, DEWSBURY",
-            "postcode": "WF12 8AJ",
-            "location": {
-              "latitude": 53.691421,
-              "longitude": -1.612303
-            },
-            "prices": {
-              "SDV": 151.9,
-              "B7": 136.9,
-              "E5": 141.9,
-              "E10": 126.9
-            }
-          },
-          {
-            "site_id": "gcwcsgsru4gv",
-            "brand": "ESSO",
-            "address": "BRADFORD ROAD, EAST ARDSLEY",
-            "postcode": "WF3 2JA",
-            "location": {
-              "latitude": 53.721744,
-              "longitude": -1.543059
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "B7": 138.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcptw9mfcmbk",
-            "brand": "ESSO",
-            "address": "Joel Street, PINNER",
-            "postcode": "HA5 2PA",
-            "location": {
-              "latitude": 51.599167,
-              "longitude": -0.40953
-            },
-            "prices": {
-              "B7": 141.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcptxnw3rmzb",
-            "brand": "ESSO",
-            "address": "Prestwick Road, SOUTH OXHEY",
-            "postcode": "WD19 6EG",
-            "location": {
-              "latitude": 51.627748,
-              "longitude": -0.386603
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcpv9m7q4k7z",
-            "brand": "ESSO",
-            "address": "STONEGROVE, EDGWARE",
-            "postcode": "HA8 8AF",
-            "location": {
-              "latitude": 51.62169,
-              "longitude": -0.292066
-            },
-            "prices": {
-              "B7": 141.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcpv8r2rfj8h",
-            "brand": "ESSO",
-            "address": "High Road, WATFORD",
-            "postcode": "WD23 1EL",
-            "location": {
-              "latitude": 51.632983,
-              "longitude": -0.340147
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcpv92cbu9b2",
-            "brand": "ESSO",
-            "address": "HONEYPOT LANE, STANMORE",
-            "postcode": "HA7 1JN",
-            "location": {
-              "latitude": 51.596055,
-              "longitude": -0.294034
-            },
-            "prices": {
-              "SDV": 154.9,
-              "B7": 140.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcp19jyp9p2n",
-            "brand": "ESSO",
-            "address": "149 WEST END ROAD, BITTERNE, SOUTHAMPTON",
-            "postcode": "SO18 6PJ",
-            "location": {
-              "latitude": 50.921585,
-              "longitude": -1.354022
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcp18jxhxv06",
-            "brand": "ESSO",
-            "address": "Lodge Road, SOUTHAMPTON",
-            "postcode": "SO14 6RP",
-            "location": {
-              "latitude": 50.919684,
-              "longitude": -1.396304
-            },
-            "prices": {
-              "B7": 139.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "gcrpfhxy9rpu",
-            "brand": "ESSO",
-            "address": "East Bawtry Road, ROTHERHAM",
-            "postcode": "S60 4BX",
-            "location": {
-              "latitude": 53.419428,
-              "longitude": -1.307652
-            },
-            "prices": {
-              "E10": 126.9,
-              "E5": 141.9,
-              "B7": 136.9,
-              "SDV": 150.9
-            }
-          },
-          {
-            "site_id": "gcx0re3bn3rc",
-            "brand": "ESSO",
-            "address": "BAWTRY ROAD, DONCASTER",
-            "postcode": "DN4 7DA",
-            "location": {
-              "latitude": 53.499305,
-              "longitude": -1.073978
-            },
-            "prices": {
-              "SDV": 155.9,
-              "B7": 140.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "gcqrxgjhg05u",
-            "brand": "ESSO",
-            "address": "MACCLESFIELD ROAD, STOCKPORT",
-            "postcode": "SK7 6DT",
-            "location": {
-              "latitude": 53.366905,
-              "longitude": -2.113361
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 138.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcv3qm5x3cxy",
-            "brand": "ESSO",
-            "address": "EDINBURGH ROAD, DUMFRIES",
-            "postcode": "DG1 1TT",
-            "location": {
-              "latitude": 55.092196,
-              "longitude": -3.587637
-            },
-            "prices": {
-              "SDV": 153.9,
-              "B7": 139.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "u107thcy9gpz",
-            "brand": "ESSO",
-            "address": "143 ASHFORD ROAD, MAIDSTONE",
-            "postcode": "ME14 4NE",
-            "location": {
-              "latitude": 51.26746,
-              "longitude": 0.573778
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "B7": 141.9,
-              "SDV": 155.9
-            }
-          },
-          {
-            "site_id": "u107ejpdcq05",
-            "brand": "ESSO",
-            "address": "Tonbridge Road, MAIDSTONE",
-            "postcode": "ME16 8TE",
-            "location": {
-              "latitude": 51.268205,
-              "longitude": 0.493752
-            },
-            "prices": {
-              "SDV": 155.9,
-              "B7": 141.9,
-              "E5": 149.9,
-              "E10": 134.9
-            }
-          },
-          {
-            "site_id": "gcputmvfhf07",
-            "brand": "ESSO",
-            "address": "TULSE HILL, BRIXTON, LONDON",
-            "postcode": "SW2 3UJ",
-            "location": {
-              "latitude": 51.447956,
-              "longitude": -0.112749
-            },
-            "prices": {
-              "E10": 132.9,
-              "E5": 147.9,
-              "B7": 141.9,
-              "SDV": 155.9
-            }
-          },
-          {
-            "site_id": "gcp9nv0kcwkn",
-            "brand": "ESSO",
-            "address": "182 LITTLEHAMPTON ROAD, WORTHING",
-            "postcode": "BN13 1QY",
-            "location": {
-              "latitude": 50.829097,
-              "longitude": -0.406081
-            },
-            "prices": {
-              "B7": 139.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcw3f31403xz",
-            "brand": "ESSO",
-            "address": "ABBEY STREET, ACCRINGTON",
-            "postcode": "BB5 1EW",
-            "location": {
-              "latitude": 53.750963,
-              "longitude": -2.360666
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcmzvtkvr2gt",
-            "brand": "ESSO",
-            "address": "418-420 QUEENS DRIVE, LIVERPOOL",
-            "postcode": "L13 0AR",
-            "location": {
-              "latitude": 53.4233,
-              "longitude": -2.915524
-            },
-            "prices": {
-              "SDV": 152.9,
-              "B7": 137.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcqrw9pwkd0j",
-            "brand": "ESSO",
-            "address": "WOODFORD ROAD, BRAMHALL",
-            "postcode": "SK7 1JR",
-            "location": {
-              "latitude": 53.356187,
-              "longitude": -2.1648
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "gcw2h1t835gz",
-            "brand": "ESSO",
-            "address": "84 MANCHESTER ROAD, CHORLTON-CUM-HARDY",
-            "postcode": "M21 9PT",
-            "location": {
-              "latitude": 53.445804,
-              "longitude": -2.277555
-            },
-            "prices": {
-              "B7": 138.9,
-              "SDV": 153.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "gcp1fmyvzxxu",
-            "brand": "ESSO",
-            "address": "Winchester Road, FAIR OAK, EASTLEIGH",
-            "postcode": "SO50 7HD",
-            "location": {
-              "latitude": 50.965231,
-              "longitude": -1.297771
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcp49bzfhngf",
-            "brand": "ESSO",
-            "address": "ANDOVER ROAD, HAMPSHIRE",
-            "postcode": "SO23 7BT",
-            "location": {
-              "latitude": 51.068953,
-              "longitude": -1.318526
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "u107cfws89gg",
-            "brand": "ESSO",
-            "address": "London Road, AYLESFORD",
-            "postcode": "ME20 6HJ",
-            "location": {
-              "latitude": 51.298695,
-              "longitude": 0.43742
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "u101jdfhu4xu",
-            "brand": "ESSO",
-            "address": "Eastbourne Road, POLEGATE",
-            "postcode": "BN26 5DD",
-            "location": {
-              "latitude": 50.816717,
-              "longitude": 0.244628
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 146.9,
-              "E10": 131.9
-            }
-          },
-          {
-            "site_id": "gcp9tt98c2gv",
-            "brand": "ESSO",
-            "address": "PULBOROUGH ROAD, STORRINGTON",
-            "postcode": "RH20 4HJ",
-            "location": {
-              "latitude": 50.919018,
-              "longitude": -0.459307
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcpvv43033e9",
-            "brand": "ESSO",
-            "address": "BRAMLEY ROAD, SOUTHGATE, LONDON",
-            "postcode": "N14 4XA",
-            "location": {
-              "latitude": 51.648153,
-              "longitude": -0.130404
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcpyb4rgtusm",
-            "brand": "ESSO",
-            "address": "LOWER LUTON ROAD, BATFORD, HARPENDEN",
-            "postcode": "AL5 5AL",
-            "location": {
-              "latitude": 51.824509,
-              "longitude": -0.340667
-            },
-            "prices": {
-              "E10": 132.9,
-              "E5": 147.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "gcpu39c3rv0p",
-            "brand": "ESSO",
-            "address": "THE BROADWAY, TOLWORTH",
-            "postcode": "KT6 7DQ",
-            "location": {
-              "latitude": 51.381926,
-              "longitude": -0.283595
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcqenfr9c2h3",
-            "brand": "ESSO",
-            "address": "WHITEHOUSE COMMON ROAD, SUTTON COLDFIELD",
-            "postcode": "B75 6HD",
-            "location": {
-              "latitude": 52.571254,
-              "longitude": -1.802385
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "SDV": 154.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcqdy7ktef5v",
-            "brand": "ESSO",
-            "address": "Sutton Road, BIRMINGHAM",
-            "postcode": "B23 5TW",
-            "location": {
-              "latitude": 52.533457,
-              "longitude": -1.828371
-            },
-            "prices": {
-              "B7": 139.9,
-              "E5": 143.9,
-              "E10": 128.9
-            }
-          },
-          {
-            "site_id": "gcrg4wbv0qhj",
-            "brand": "ESSO",
-            "address": "Welland Road, PETERBOROUGH",
-            "postcode": "PE1 3SA",
-            "location": {
-              "latitude": 52.596564,
-              "longitude": -0.240653
-            },
-            "prices": {
-              "E10": 129.9,
-              "E5": 144.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcqkrck0mvu4",
-            "brand": "ESSO",
-            "address": "WOLVERHAMPTON ROAD, STAFFORD",
-            "postcode": "ST17 9DH",
-            "location": {
-              "latitude": 52.785261,
-              "longitude": -2.114616
-            },
-            "prices": {
-              "B7": 138.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcpmz3edbx04",
-            "brand": "ESSO",
-            "address": "Amersham Road, HIGH WYCOMBE",
-            "postcode": "HP13 5AP",
-            "location": {
-              "latitude": 51.644492,
-              "longitude": -0.731256
-            },
-            "prices": {
-              "E10": 133.9,
-              "E5": 148.9,
-              "B7": 143.9,
-              "SDV": 157.9
-            }
-          },
-          {
-            "site_id": "gcpmwsd523rc",
-            "brand": "ESSO",
-            "address": "Marlow Road, HIGH WYCOMBE",
-            "postcode": "HP11 1TA",
-            "location": {
-              "latitude": 51.617081,
-              "longitude": -0.766275
-            },
-            "prices": {
-              "SDV": 156.9,
-              "B7": 142.9,
-              "E5": 147.9,
-              "E10": 132.9
-            }
-          },
-          {
-            "site_id": "gcw2g78587zy",
-            "brand": "ESSO",
-            "address": "Bolton Road, BURY",
-            "postcode": "BL8 2NZ",
-            "location": {
-              "latitude": 53.589184,
-              "longitude": -2.318094
-            },
-            "prices": {
-              "E10": 128.9,
-              "E5": 143.9,
-              "B7": 136.9,
-              "SDV": 150.9
-            }
-          },
-          {
-            "site_id": "gcjf1x57u1hp",
-            "brand": "ESSO",
-            "address": "30-33 EAST REACH, TAUNTON",
-            "postcode": "TA1 3ES",
-            "location": {
-              "latitude": 51.015665,
-              "longitude": -3.093504
-            },
-            "prices": {
-              "SDV": 151.9,
-              "B7": 137.9,
-              "E5": 144.9,
-              "E10": 129.9
-            }
-          },
-          {
-            "site_id": "gcnhz816pts1",
-            "brand": "ESSO",
-            "address": "DEANERY ROAD, KINGSWOOD, BRISTOL",
-            "postcode": "BS15 9JB",
-            "location": {
-              "latitude": 51.460334,
-              "longitude": -2.480866
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcnhycetz3pv",
-            "brand": "ESSO",
-            "address": "SOUNDWELL ROAD, BRISTOL",
-            "postcode": "BS15 1PN",
-            "location": {
-              "latitude": 51.469194,
-              "longitude": -2.510741
-            },
-            "prices": {
-              "SDV": 153.9,
-              "B7": 139.9,
-              "E5": 145.9,
-              "E10": 130.9
-            }
-          },
-          {
-            "site_id": "gcpvhzwfufh3",
-            "brand": "ESSO",
-            "address": "Camden Road, LONDON",
-            "postcode": "NW1 9HG",
-            "location": {
-              "latitude": 51.545588,
-              "longitude": -0.133343
-            },
-            "prices": {
-              "E10": 129.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcpk8v4yt026",
-            "brand": "ESSO",
-            "address": "Bath Road, READING",
-            "postcode": "RG30 2EU",
-            "location": {
-              "latitude": 51.444599,
-              "longitude": -1.017737
-            },
-            "prices": {
-              "B7": 138.9,
-              "SDV": 152.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcpkf53jpezv",
-            "brand": "ESSO",
-            "address": "BUCKINGHAM DRIVE, READING",
-            "postcode": "RG4 8RZ",
-            "location": {
-              "latitude": 51.478693,
-              "longitude": -0.965091
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "u134qxjv4f8p",
-            "brand": "ESSO",
-            "address": "Beccles Road, LOWESTOFT",
-            "postcode": "NR33 8QY",
-            "location": {
-              "latitude": 52.466083,
-              "longitude": 1.699909
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcrnhzkbr3s0",
-            "brand": "ESSO",
-            "address": "NOTTINGHAM ROAD, MANSFIELD",
-            "postcode": "NG18 4SG",
-            "location": {
-              "latitude": 53.125814,
-              "longitude": -1.19067
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "SDV": 154.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcr6pg1qhkev",
-            "brand": "ESSO",
-            "address": "92 WINDMILL AVENUE, NORTHATNS",
-            "postcode": "NN16 0RD",
-            "location": {
-              "latitude": 52.400347,
-              "longitude": -0.712207
-            },
-            "prices": {
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "u10qjqttx4ef",
-            "brand": "ESSO",
-            "address": "MALDON ROAD, DANBURY, ESSEX",
-            "postcode": "CM3 4QW",
-            "location": {
-              "latitude": 51.716351,
-              "longitude": 0.590134
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcpchqyfthzc",
-            "brand": "ESSO",
-            "address": "DYKE ROAD, HOVE",
-            "postcode": "BN3 6NF",
-            "location": {
-              "latitude": 50.838315,
-              "longitude": -0.1553
-            },
-            "prices": {
-              "SDV": 155.9,
-              "B7": 141.9,
-              "E10": 134.9,
-              "E5": 149.9
-            }
-          },
-          {
-            "site_id": "gcrspqv2m6rb",
-            "brand": "ESSO",
-            "address": "North Street, BOURNE",
-            "postcode": "PE10 9AQ",
-            "location": {
-              "latitude": 52.771509,
-              "longitude": -0.377076
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcrk5xj5tbs4",
-            "brand": "ESSO",
-            "address": "NOTTINGHAM RD, MELTON MOWBRAY",
-            "postcode": "LE13 0NR",
-            "location": {
-              "latitude": 52.773431,
-              "longitude": -0.89376
-            },
-            "prices": {
-              "SDV": 155.9,
-              "B7": 141.9,
-              "E10": 135.9,
-              "E5": 150.9
-            }
-          },
-          {
-            "site_id": "gcwbns7mwf85",
-            "brand": "ESSO",
-            "address": "BURNCROSS ROAD, SHEFFIELD",
-            "postcode": "S35 1RX",
-            "location": {
-              "latitude": 53.461804,
-              "longitude": -1.467415
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 139.9,
-              "SDV": 153.9
-            }
-          },
-          {
-            "site_id": "gcq6wtesp6z8",
-            "brand": "ESSO",
-            "address": "Moss Grove, KINGSWINFORD",
-            "postcode": "DY6 9HP",
-            "location": {
-              "latitude": 52.501617,
-              "longitude": -2.170165
-            },
-            "prices": {
-              "B7": 139.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gfnt0mcxbvxz",
-            "brand": "ESSO",
-            "address": "472-480 KING STREET, ABERDEEN",
-            "postcode": "AB24 3DF",
-            "location": {
-              "latitude": 57.161853,
-              "longitude": -2.096286
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "gbypzkqu0grz",
-            "brand": "ESSO",
-            "address": "LANEHOUSE ROCKS ROAD, WEYMOUTH",
-            "postcode": "DT4 9DJ",
-            "location": {
-              "latitude": 50.605106,
-              "longitude": -2.484584
-            },
-            "prices": {
-              "B7": 144.9,
-              "SDV": 158.9,
-              "E10": 134.9,
-              "E5": 149.9
-            }
-          },
-          {
-            "site_id": "u10jwsefwug9",
-            "brand": "ESSO",
-            "address": "6 LONDON ROAD, BRENTWOOD, ESSEX",
-            "postcode": "CM14 4QG",
-            "location": {
-              "latitude": 51.616971,
-              "longitude": 0.291089
-            },
-            "prices": {
-              "E5": 147.9,
-              "E10": 132.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "u10t0weguyzz",
-            "brand": "ESSO",
-            "address": "Southchurch Road, SOUTHEND-ON-SEA",
-            "postcode": "SS1 2QA",
-            "location": {
-              "latitude": 51.540293,
-              "longitude": 0.730462
-            },
-            "prices": {
-              "B7": 144.9,
-              "SDV": 158.9,
-              "E10": 135.9,
-              "E5": 150.9
-            }
-          },
-          {
-            "site_id": "u10mqsp3njbp",
-            "brand": "ESSO",
-            "address": "RAYLEIGH ROAD, EASTWOOD",
-            "postcode": "SS9 5PS",
-            "location": {
-              "latitude": 51.570028,
-              "longitude": 0.647421
-            },
-            "prices": {
-              "E5": 148.9,
-              "E10": 133.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "u10mq24m6bz9",
-            "brand": "ESSO",
-            "address": "LONDON RD, LEIGH ON SEA",
-            "postcode": "SS9 2ST",
-            "location": {
-              "latitude": 51.548757,
-              "longitude": 0.629439
-            },
-            "prices": {
-              "B7": 143.9,
-              "SDV": 157.9,
-              "E10": 134.9,
-              "E5": 149.9
-            }
-          },
-          {
-            "site_id": "gcw24rfsdsb0",
-            "brand": "ESSO",
-            "address": "LIVERPOOL ROAD, ECCLES, MANCHESTER",
-            "postcode": "M30 0QN",
-            "location": {
-              "latitude": 53.48087,
-              "longitude": -2.35852
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "u10j2bpjkg5y",
-            "brand": "ESSO",
-            "address": "Romford Road, LONDON",
-            "postcode": "E7 8AF",
-            "location": {
-              "latitude": 51.54877,
-              "longitude": 0.042781
-            },
-            "prices": {
-              "B7": 140.9,
-              "SDV": 154.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcxnd7rq68s5",
-            "brand": "ESSO",
-            "address": "BYPASS ROAD, BILLINGHAM",
-            "postcode": "TS23 1PB",
-            "location": {
-              "latitude": 54.599007,
-              "longitude": -1.297304
-            },
-            "prices": {
-              "E5": 143.9,
-              "E10": 128.9,
-              "SDV": 154.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "u10h8wm90v5g",
-            "brand": "ESSO",
-            "address": "Sidcup Road, LONDON",
-            "postcode": "SE12 8BL",
-            "location": {
-              "latitude": 51.450547,
-              "longitude": 0.029563
-            },
-            "prices": {
-              "B7": 144.9,
-              "SDV": 158.9,
-              "E10": 133.9,
-              "E5": 148.9
-            }
-          },
-          {
-            "site_id": "gcqdb0rk8y23",
-            "brand": "ESSO",
-            "address": "Highland Road, DUDLEY",
-            "postcode": "DY1 3BS",
-            "location": {
-              "latitude": 52.516828,
-              "longitude": -2.099386
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcpumke8f4ez",
-            "brand": "ESSO",
-            "address": "845-853 London Road, THORNTON HEATH",
-            "postcode": "CR7 6JH",
-            "location": {
-              "latitude": 51.396933,
-              "longitude": -0.115952
-            },
-            "prices": {
-              "B7": 138.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcqmtfjgkvhn",
-            "brand": "ESSO",
-            "address": "Hartshill Road, STOKE-ON-TRENT",
-            "postcode": "ST4 7NH",
-            "location": {
-              "latitude": 53.009619,
-              "longitude": -2.200146
-            },
-            "prices": {
-              "E5": 143.9,
-              "E10": 128.9,
-              "B7": 136.9
-            }
-          },
-          {
-            "site_id": "gcpu6btuk4hk",
-            "brand": "ESSO",
-            "address": "LONDON ROAD, NORTH CHEAM",
-            "postcode": "SM3 9BY",
-            "location": {
-              "latitude": 51.375558,
-              "longitude": -0.222639
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E10": 131.9,
-              "E5": 146.9
-            }
-          },
-          {
-            "site_id": "gcpuq175eh81",
-            "brand": "ESSO",
-            "address": "100 Lower Addiscombe Road, CROYDON",
-            "postcode": "CR0 6AD",
-            "location": {
-              "latitude": 51.379562,
-              "longitude": -0.083642
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "SDV": 152.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "gcrhuzqc2nbh",
-            "brand": "ESSO",
-            "address": "CLIFTON LANE, NOTTINGHAM",
-            "postcode": "NG11 8NA",
-            "location": {
-              "latitude": 52.906288,
-              "longitude": -1.18824
-            },
-            "prices": {
-              "B7": 138.9,
-              "SDV": 152.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcpugeq1ng07",
-            "brand": "ESSO",
-            "address": "KINGS ROAD, FULHAM, LONDON",
-            "postcode": "SW6 2EJ",
-            "location": {
-              "latitude": 51.478002,
-              "longitude": -0.189224
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcpt5vsed6sq",
-            "brand": "ESSO",
-            "address": "UXBRIDGE ROAD, IVER HEATH",
-            "postcode": "SL0 0LR",
-            "location": {
-              "latitude": 51.534734,
-              "longitude": -0.532048
-            },
-            "prices": {
-              "B7": 142.9,
-              "SDV": 156.9,
-              "E10": 135.9,
-              "E5": 150.9
-            }
-          },
-          {
-            "site_id": "gcpur0z557k6",
-            "brand": "ESSO",
-            "address": "WICKHAM ROAD, CROYDON",
-            "postcode": "CR0 8DN",
-            "location": {
-              "latitude": 51.376723,
-              "longitude": -0.034187
-            },
-            "prices": {
-              "E5": 145.9,
-              "E10": 130.9,
-              "SDV": 152.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "gcqdqfbug1zz",
-            "brand": "ESSO",
-            "address": "WARWICK ROAD, OLTON, SOLIHULL",
-            "postcode": "B92 7HS",
-            "location": {
-              "latitude": 52.44269,
-              "longitude": -1.811575
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcpn8esfy5xv",
-            "brand": "ESSO",
-            "address": "A40, WITNEY, EYNSHAM",
-            "postcode": "OX8 1EF",
-            "location": {
-              "latitude": 51.787296,
-              "longitude": -1.377486
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "u10h9nkmztb3",
-            "brand": "ESSO",
-            "address": "39-41 HIGH STREET, ELTHAM, LONDON",
-            "postcode": "SE9 1DH",
-            "location": {
-              "latitude": 51.451366,
-              "longitude": 0.050104
-            },
-            "prices": {
-              "B7": 144.9,
-              "SDV": 158.9,
-              "E10": 132.9,
-              "E5": 147.9
-            }
-          },
-          {
-            "site_id": "gcq6r7ce2rgf",
-            "brand": "ESSO",
-            "address": "Hagley Road, STOURBRIDGE",
-            "postcode": "DY8 1RD",
-            "location": {
-              "latitude": 52.447957,
-              "longitude": -2.140258
-            },
-            "prices": {
-              "E5": 147.9,
-              "E10": 132.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcw26yx3x32m",
-            "brand": "ESSO",
-            "address": "613 BOLTON ROAD, PENDLEBURY",
-            "postcode": "M27 4EJ",
-            "location": {
-              "latitude": 53.517416,
-              "longitude": -2.32982
-            },
-            "prices": {
-              "B7": 138.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcrb02j85n7f",
-            "brand": "ESSO",
-            "address": "SHEFFORD BY PASS (A507), SHEFFORD",
-            "postcode": "SG17 5LD",
-            "location": {
-              "latitude": 52.031284,
-              "longitude": -0.332889
-            },
-            "prices": {
-              "E5": 149.9,
-              "E10": 134.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcybujdxexh7",
-            "brand": "ESSO",
-            "address": "Benton Road, NEWCASTLE UPON TYNE",
-            "postcode": "NE7 7EW",
-            "location": {
-              "latitude": 55.007124,
-              "longitude": -1.578442
-            },
-            "prices": {
-              "B7": 138.9,
-              "SDV": 152.9,
-              "E10": 128.9,
-              "E5": 143.9
-            }
-          },
-          {
-            "site_id": "gcnyw1chw8sh",
-            "brand": "ESSO",
-            "address": "STATION LANE, WITNEY",
-            "postcode": "OX8 6EG",
-            "location": {
-              "latitude": 51.777967,
-              "longitude": -1.492483
-            },
-            "prices": {
-              "E5": 143.9,
-              "E10": 128.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcuvg88stzrv",
-            "brand": "ESSO",
-            "address": "RENFREW ROAD, PAISLEY",
-            "postcode": "PA3 4BG",
-            "location": {
-              "latitude": 55.858051,
-              "longitude": -4.41556
-            },
-            "prices": {
-              "B7": 140.9,
-              "SDV": 154.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcpf8crc05sj",
-            "brand": "ESSO",
-            "address": "Redkiln Way, HORSHAM",
-            "postcode": "RH13 5QH",
-            "location": {
-              "latitude": 51.071511,
-              "longitude": -0.307955
-            },
-            "prices": {
-              "E5": 150.9,
-              "E10": 135.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "gcptek4bus01",
-            "brand": "ESSO",
-            "address": "Gravel Hill, GERRARDS CROSS",
-            "postcode": "SL9 0NP",
-            "location": {
-              "latitude": 51.61392,
-              "longitude": -0.556333
-            },
-            "prices": {
-              "B7": 142.9,
-              "SDV": 156.9,
-              "E10": 131.9,
-              "E5": 146.9
-            }
-          },
-          {
-            "site_id": "gcpyp0ngvthj",
-            "brand": "ESSO",
-            "address": "JCN.BULLSMOOR LANE/HERTFORD RD, WALTHAM CROSS",
-            "postcode": "EN8 7RS",
-            "location": {
-              "latitude": 51.680359,
-              "longitude": -0.034434
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "SDV": 155.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "u10hst9sdu5y",
-            "brand": "ESSO",
-            "address": "DARTFORD RD, DARTFORD",
-            "postcode": "DA1 3EN",
-            "location": {
-              "latitude": 51.447023,
-              "longitude": 0.199937
-            },
-            "prices": {
-              "B7": 143.9,
-              "SDV": 157.9,
-              "E10": 133.9,
-              "E5": 148.9
-            }
-          },
-          {
-            "site_id": "u10j4mm57sb3",
-            "brand": "ESSO",
-            "address": "RIPPLE ROAD, BARKING",
-            "postcode": "IG11 9BG",
-            "location": {
-              "latitude": 51.533329,
-              "longitude": 0.105894
-            },
-            "prices": {
-              "E5": 147.9,
-              "E10": 132.9,
-              "SDV": 155.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "u10j645yx1q5",
-            "brand": "ESSO",
-            "address": "GREEN LANE, ILFORD",
-            "postcode": "IG1 1XR",
-            "location": {
-              "latitude": 51.559961,
-              "longitude": 0.093349
-            },
-            "prices": {
-              "B7": 139.9,
-              "SDV": 153.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcpuq9f0h1s7",
-            "brand": "ESSO",
-            "address": "SHIRLEY ROAD, CROYDON",
-            "postcode": "CR0 7ER",
-            "location": {
-              "latitude": 51.381692,
-              "longitude": -0.062994
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "SDV": 152.9,
-              "B7": 138.9
-            }
-          },
-          {
-            "site_id": "gcpvtze98ee8",
-            "brand": "ESSO",
-            "address": "810 GREENS LANE, LONDON",
-            "postcode": "N21 2SA",
-            "location": {
-              "latitude": 51.633272,
-              "longitude": -0.094044
-            },
-            "prices": {
-              "B7": 138.9,
-              "SDV": 152.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcpvrve587kk",
-            "brand": "ESSO",
-            "address": "LEA BRIDGE ROAD, LONDON",
-            "postcode": "E17 9DZ",
-            "location": {
-              "latitude": 51.578683,
-              "longitude": -0.00685
-            },
-            "prices": {
-              "E5": 147.9,
-              "E10": 132.9,
-              "SDV": 155.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "u10jng8xzkgu",
-            "brand": "ESSO",
-            "address": "NORTH ROAD, SOUTH OCKENDON",
-            "postcode": "RM15 6AJ",
-            "location": {
-              "latitude": 51.524489,
-              "longitude": 0.297634
-            },
-            "prices": {
-              "B7": 141.9,
-              "SDV": 155.9,
-              "E10": 131.9,
-              "E5": 146.9
-            }
-          },
-          {
-            "site_id": "gcpv18g1czpv",
-            "brand": "ESSO",
-            "address": "355/363 UXBRIDGE ROAD, ACTON",
-            "postcode": "W5 3LF",
-            "location": {
-              "latitude": 51.508365,
-              "longitude": -0.281439
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "SDV": 153.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcpu5n12e286",
-            "brand": "ESSO",
-            "address": "MALDEN ROAD, CHEAM, SURREY",
-            "postcode": "SM3 8HY",
-            "location": {
-              "latitude": 51.361173,
-              "longitude": -0.21787
-            },
-            "prices": {
-              "B7": 140.9,
-              "E10": 132.9,
-              "E5": 147.9
-            }
-          },
-          {
-            "site_id": "gcpvzj2w9q24",
-            "brand": "ESSO",
-            "address": "439 HERTFORD ROAD, ENFIELD",
-            "postcode": "EN3 5UT",
-            "location": {
-              "latitude": 51.665731,
-              "longitude": -0.043205
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 138.9,
-              "SDV": 152.9
-            }
-          },
-          {
-            "site_id": "gcqdk5dhxyzf",
-            "brand": "ESSO",
-            "address": "479 BRISTOL RD, BIRMINGHAM",
-            "postcode": "B29 6BA",
-            "location": {
-              "latitude": 52.446793,
-              "longitude": -1.930504
-            },
-            "prices": {
-              "B7": 140.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcr5my8mkb0n",
-            "brand": "ESSO",
-            "address": "FOSSE ROAD, LEICESTER",
-            "postcode": "LE3 5EX",
-            "location": {
-              "latitude": 52.639147,
-              "longitude": -1.153017
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "u10njsfny5xf",
-            "brand": "ESSO",
-            "address": "HIGH STREET, ONGAR",
-            "postcode": "CM5 9AL",
-            "location": {
-              "latitude": 51.706958,
-              "longitude": 0.244714
-            },
-            "prices": {
-              "B7": 142.9,
-              "SDV": 156.9,
-              "E10": 133.9,
-              "E5": 148.9
-            }
-          },
-          {
-            "site_id": "gcpue8hn3frf",
-            "brand": "ESSO",
-            "address": "MERTON ROAD, WIMBLEDON",
-            "postcode": "SW19 1EQ",
-            "location": {
-              "latitude": 51.417101,
-              "longitude": -0.192175
-            },
-            "prices": {
-              "E5": 148.9,
-              "E10": 133.9,
-              "SDV": 154.9,
-              "B7": 140.9
-            }
-          },
-          {
-            "site_id": "gcpusknmry01",
-            "brand": "ESSO",
-            "address": "BALHAM HIGH ROAD, BALHAM",
-            "postcode": "SW17 7BL",
-            "location": {
-              "latitude": 51.438922,
-              "longitude": -0.155879
-            },
-            "prices": {
-              "B7": 142.9,
-              "E10": 134.9,
-              "E5": 149.9
-            }
-          },
-          {
-            "site_id": "u1048wrbnmey",
-            "brand": "ESSO",
-            "address": "LEWES ROAD, FOREST ROW",
-            "postcode": "RH18 5JS",
-            "location": {
-              "latitude": 51.098816,
-              "longitude": 0.032889
-            },
-            "prices": {
-              "E5": 143.9,
-              "E10": 128.9,
-              "B7": 139.9
-            }
-          },
-          {
-            "site_id": "gcpuv3tdr2kh",
-            "brand": "ESSO",
-            "address": "BRIXTON ROAD, STOCKWELL",
-            "postcode": "SW9 7AA",
-            "location": {
-              "latitude": 51.468589,
-              "longitude": -0.11298
-            },
-            "prices": {
-              "B7": 141.9,
-              "E10": 132.9,
-              "E5": 147.9
-            }
-          },
-          {
-            "site_id": "gcuws6z5t6b0",
-            "brand": "ESSO",
-            "address": "135 EAST CLYDE STREET, HELENSBURGH",
-            "postcode": "G84 7AA",
-            "location": {
-              "latitude": 56.00205,
-              "longitude": -4.725269
-            },
-            "prices": {
-              "E5": 147.9,
-              "E10": 132.9,
-              "B7": 141.9
-            }
-          },
-          {
-            "site_id": "gcpvrte4p1xe",
-            "brand": "ESSO",
-            "address": "394 HOE STREET, LONDON",
-            "postcode": "E17 9AA",
-            "location": {
-              "latitude": 51.578416,
-              "longitude": -0.017542
-            },
-            "prices": {
-              "B7": 141.9,
-              "SDV": 155.9,
-              "E10": 132.9,
-              "E5": 147.9
-            }
-          },
-          {
-            "site_id": "gcqe33rdhsuh",
-            "brand": "ESSO",
-            "address": "68 LICHFIELD RD, WILLENHALL, BIRMINGHAM",
-            "postcode": "WV12 5UL",
-            "location": {
-              "latitude": 52.609775,
-              "longitude": -2.043945
-            },
-            "prices": {
-              "E5": 148.9,
-              "E10": 133.9,
-              "SDV": 156.9,
-              "B7": 142.9
-            }
-          },
-          {
-            "site_id": "gcxn5xr9kwu1",
-            "brand": "ESSO",
-            "address": "ACKLAM ROAD, ACKLAM, MIDDLESBOROUGH",
-            "postcode": "TS5 7HL",
-            "location": {
-              "latitude": 54.532264,
-              "longitude": -1.241943
-            },
-            "prices": {
-              "B7": 137.9,
-              "SDV": 152.9,
-              "E10": 127.9,
-              "E5": 142.9
-            }
-          },
-          {
-            "site_id": "gcnqvqgq4vbm",
-            "brand": "ESSO",
-            "address": "EASTERN AVENUE, GLOUCESTER",
-            "postcode": "GL4 6QS",
-            "location": {
-              "latitude": 51.849664,
-              "longitude": -2.225643
-            },
-            "prices": {
-              "E5": 142.9,
-              "E10": 127.9,
-              "SDV": 150.9,
-              "B7": 136.9
-            }
-          },
-          {
-            "site_id": "gcw2b0npu8pu",
-            "brand": "ESSO",
-            "address": "WIGAN ROAD, HASLAM PARK, BOLTON",
-            "postcode": "BL3 5PX",
-            "location": {
-              "latitude": 53.570667,
-              "longitude": -2.452494
-            },
-            "prices": {
-              "B7": 137.9,
-              "E10": 129.9,
-              "E5": 144.9
-            }
-          },
-          {
-            "site_id": "gcqdhp2db32r",
-            "brand": "ESSO",
-            "address": "LINDEN ROAD, BIRMINGHAM",
-            "postcode": "B30 1AP",
-            "location": {
-              "latitude": 52.423118,
-              "longitude": -1.932896
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 139.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcnkxrgr98hj",
-            "brand": "ESSO",
-            "address": "HUNGERDOWN LANE, CHIPPENHAM.",
-            "postcode": "SN14 0JH",
-            "location": {
-              "latitude": 51.459876,
-              "longitude": -2.137801
-            },
-            "prices": {
-              "SDV": 151.9,
-              "B7": 137.9,
-              "E10": 128.9,
-              "E5": 143.9
-            }
-          },
-          {
-            "site_id": "gbvndm8m7r7f",
-            "brand": "ESSO",
-            "address": "137 EGGBUCKLAND ROAD, PLYMOUTH, DEVON",
-            "postcode": "PL3 5JU",
-            "location": {
-              "latitude": 50.392481,
-              "longitude": -4.119385
-            },
-            "prices": {
-              "E5": 148.9,
-              "E10": 133.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcwcy9ggqgxy",
-            "brand": "ESSO",
-            "address": "128 LEEDS ROAD, LEEDS",
-            "postcode": "LS26 0HB",
-            "location": {
-              "latitude": 53.755308,
-              "longitude": -1.466718
-            },
-            "prices": {
-              "SDV": 152.9,
-              "B7": 137.9,
-              "E10": 127.9,
-              "E5": 142.9
-            }
-          },
-          {
-            "site_id": "gcnjph2kvshj",
-            "brand": "ESSO",
-            "address": "HIGH STREET, BRISTOL",
-            "postcode": "BS36 1RB",
-            "location": {
-              "latitude": 51.52809,
-              "longitude": -2.504298
-            },
-            "prices": {
-              "E5": 146.9,
-              "E10": 131.9,
-              "B7": 140.9,
-              "SDV": 154.9
-            }
-          },
-          {
-            "site_id": "gcp41296rv0j",
-            "brand": "ESSO",
-            "address": "134-138 TWYFORD ROAD, EASTLEIGH",
-            "postcode": "SO50 4HP",
-            "location": {
-              "latitude": 50.979723,
-              "longitude": -1.349269
-            },
-            "prices": {
-              "SDV": 153.9,
-              "B7": 139.9,
-              "E10": 130.9,
-              "E5": 145.9
-            }
-          },
-          {
-            "site_id": "gcpvjq4yqbjt",
-            "brand": "ESSO",
-            "address": "219-227, CALEDONIAN RD, LONDON",
-            "postcode": "N1 0SL",
-            "location": {
-              "latitude": 51.537939,
-              "longitude": -0.116776
-            },
-            "prices": {
-              "E5": 144.9,
-              "E10": 129.9,
-              "B7": 141.9,
-              "SDV": 155.9
-            }
-          },
-          {
-            "site_id": "gfnkj62v7fdu",
-            "brand": "ESSO",
-            "address": "KIRKTON RD, STONEHAVEN",
-            "postcode": "AB39 2NQ",
-            "location": {
-              "latitude": 56.9664,
-              "longitude": -2.22903
-            },
-            "prices": {
-              "SDV": 157.9,
-              "B7": 143.9,
-              "E10": 133.9,
-              "E5": 148.9
-            }
-          }
-        ]
-      },
-      "url": "https://fuelprices.esso.co.uk/latestdata.json"
-    },
-    {
       "retailer": "Asda",
       "status": "success",
       "data": {
-        "last_updated": "07/02/2026 11:00:00",
+        "last_updated": "08/02/2026 11:00:00",
         "stations": [
           {
             "site_id": "gcqfn1wd5k4j",
@@ -19314,6 +19314,74 @@
       "url": "https://storelocator.asda.com/fuel_prices_data.json"
     },
     {
+      "retailer": "Morrisons",
+      "status": "success",
+      "data": {
+        "last_updated": "08/02/2026 11:30:14",
+        "stations": [
+          {
+            "site_id": "gcpvxdc3p8p9",
+            "brand": "Morrisons",
+            "address": "6-7 Salisbury Hall Gardens",
+            "postcode": "E4 8SN",
+            "location": {
+              "longitude": "-0.019924",
+              "latitude": "51.607075"
+            },
+            "prices": {
+              "E10": 130.9,
+              "B7": 137.9
+            }
+          },
+          {
+            "site_id": "eykjw5bzy2zk",
+            "brand": "Morrisons",
+            "address": "Westside Road",
+            "postcode": "GX11 1AA",
+            "location": {
+              "longitude": "-5.360020161",
+              "latitude": "36.14498138"
+            },
+            "prices": {
+              "E10": 102.9,
+              "B7": 100.9,
+              "E5": 112.9
+            }
+          },
+          {
+            "site_id": "gcpvydq4n78n",
+            "brand": "Morrisons",
+            "address": "327 Southbury Road",
+            "postcode": "EN1 1TW",
+            "location": {
+              "longitude": "-0.05741",
+              "latitude": "51.648465"
+            },
+            "prices": {
+              "E10": 129.9,
+              "B7": 136.9
+            }
+          },
+          {
+            "site_id": "gcpuy6r0tqjf",
+            "brand": "Morrisons",
+            "address": "Aylesham Centre",
+            "postcode": "SE15 5EW",
+            "location": {
+              "longitude": "-0.067058",
+              "latitude": "51.472439"
+            },
+            "prices": {
+              "E10": 130.7,
+              "B7": 139.7,
+              "E5": 141.7
+            }
+          }
+        ]
+      },
+      "url": "https://www.morrisons.com/fuel-prices/fuel.json"
+    },
+    {
       "retailer": "Karan Retail Ltd",
       "status": "success",
       "data": {
@@ -19996,78 +20064,10 @@
       "url": "https://api.krl.live/integration/live_price/krl"
     },
     {
-      "retailer": "Morrisons",
-      "status": "success",
-      "data": {
-        "last_updated": "07/02/2026 11:30:15",
-        "stations": [
-          {
-            "site_id": "gcpvxdc3p8p9",
-            "brand": "Morrisons",
-            "address": "6-7 Salisbury Hall Gardens",
-            "postcode": "E4 8SN",
-            "location": {
-              "longitude": "-0.019924",
-              "latitude": "51.607075"
-            },
-            "prices": {
-              "E10": 130.9,
-              "B7": 137.9
-            }
-          },
-          {
-            "site_id": "eykjw5bzy2zk",
-            "brand": "Morrisons",
-            "address": "Westside Road",
-            "postcode": "GX11 1AA",
-            "location": {
-              "longitude": "-5.360020161",
-              "latitude": "36.14498138"
-            },
-            "prices": {
-              "E10": 102.9,
-              "B7": 100.9,
-              "E5": 112.9
-            }
-          },
-          {
-            "site_id": "gcpvydq4n78n",
-            "brand": "Morrisons",
-            "address": "327 Southbury Road",
-            "postcode": "EN1 1TW",
-            "location": {
-              "longitude": "-0.05741",
-              "latitude": "51.648465"
-            },
-            "prices": {
-              "E10": 129.9,
-              "B7": 136.9
-            }
-          },
-          {
-            "site_id": "gcpuy6r0tqjf",
-            "brand": "Morrisons",
-            "address": "Aylesham Centre",
-            "postcode": "SE15 5EW",
-            "location": {
-              "longitude": "-0.067058",
-              "latitude": "51.472439"
-            },
-            "prices": {
-              "E10": 130.7,
-              "B7": 139.7,
-              "E5": 141.7
-            }
-          }
-        ]
-      },
-      "url": "https://www.morrisons.com/fuel-prices/fuel.json"
-    },
-    {
       "retailer": "Ascona Group",
       "status": "success",
       "data": {
-        "last_updated": "07/02/2026 11:50:13",
+        "last_updated": "08/02/2026 11:50:13",
         "stations": [
           {
             "site_id": "gcqfydrhb9q5",
@@ -20191,7 +20191,7 @@
               "longitude": -2.958342
             },
             "prices": {
-              "E10": 131.7,
+              "E10": 128.7,
               "B7": 137.7
             }
           },
@@ -20206,7 +20206,7 @@
             },
             "prices": {
               "E10": 135.9,
-              "B7": 145.9
+              "B7": 146.9
             }
           },
           {
@@ -20289,8 +20289,8 @@
               "longitude": -4.280289
             },
             "prices": {
-              "E10": 122.7,
-              "B7": 132.7
+              "E10": 124.7,
+              "B7": 134.7
             }
           },
           {
@@ -20485,7 +20485,7 @@
               "longitude": -3.2413339
             },
             "prices": {
-              "E10": 133.7,
+              "E10": 134.7,
               "B7": 143.7
             }
           },
@@ -20639,8 +20639,8 @@
               "longitude": -0.4245391
             },
             "prices": {
-              "E10": 129.7,
-              "B7": 136.7
+              "E10": 128.9,
+              "B7": 136.9
             }
           },
           {
@@ -20653,8 +20653,8 @@
               "longitude": -1.141752
             },
             "prices": {
-              "E10": 132.9,
-              "B7": 142.9
+              "E10": 131.9,
+              "B7": 141.9
             }
           },
           {
@@ -20751,8 +20751,8 @@
               "longitude": -2.1535712
             },
             "prices": {
-              "E10": 131.9,
-              "B7": 143.9
+              "E10": 132.9,
+              "B7": 145.9
             }
           },
           {
@@ -20835,8 +20835,8 @@
               "longitude": -0.4853114
             },
             "prices": {
-              "E10": 133.9,
-              "B7": 142.9
+              "E10": 133.7,
+              "B7": 142.7
             }
           },
           {
@@ -20931,7 +20931,7 @@
       "retailer": "JET Retail UK",
       "status": "success",
       "data": {
-        "last_updated": "07/02/2026 11:45:07",
+        "last_updated": "08/02/2026 11:45:07",
         "stations": [
           {
             "site_id": "gcxc46cnjv5k",
@@ -21025,8 +21025,7 @@
             "prices": {
               "E5": 136.9,
               "E10": 127.9,
-              "B7": 137.9,
-              "SDV": 146.9
+              "B7": 137.9
             }
           },
           {
@@ -21110,7 +21109,7 @@
       "retailer": "Sainsbury's",
       "status": "success",
       "data": {
-        "last_updated": "08/02/2026 02:00:16",
+        "last_updated": "09/02/2026 02:00:17",
         "stations": [
           {
             "site_id": "u100yq7n0zz3",
@@ -21782,8 +21781,8 @@
               "longitude": -4.37683
             },
             "prices": {
-              "E10": 131.9,
-              "E5": 143.9,
+              "E10": 130.9,
+              "E5": 142.9,
               "B7": 141.9
             }
           },
@@ -22772,8 +22771,8 @@
               "longitude": -0.3659
             },
             "prices": {
-              "E10": 129.9,
-              "E5": 141.9,
+              "E10": 128.9,
+              "E5": 140.9,
               "B7": 138.9
             }
           },
@@ -24784,7 +24783,7 @@
             "prices": {
               "E10": 127.9,
               "E5": 139.9,
-              "B7": 137.9
+              "B7": 136.9
             }
           },
           {
@@ -25860,7 +25859,7 @@
       "retailer": "Moto",
       "status": "success",
       "data": {
-        "last_updated": "08/02/2026 09:58:00",
+        "last_updated": "09/02/2026 01:58:01",
         "stations": [
           {
             "site_id": "gcw2trbpdxqk",
@@ -30371,10 +30370,10 @@
               "latitude": 53.1775
             },
             "prices": {
-              "E5": 148.9,
-              "SDV": 155.9,
-              "E10": 134.9,
-              "B7": 144.9
+              "E5": 149.9,
+              "SDV": 159.9,
+              "E10": 135.9,
+              "B7": 145.9
             },
             "site_id": "gcrw98xv7s6z",
             "postcode": "LN6 9AJ",
@@ -31812,7 +31811,7 @@
             "prices": {
               "E5": 148.9,
               "E10": 134.9,
-              "B7": 143.9
+              "B7": 144.9
             },
             "site_id": "gcrwegscz3h2",
             "postcode": "LN4 2ND",
@@ -32514,7 +32513,7 @@
             "brand": "Shell"
           }
         ],
-        "last_updated": "07/02/2026 10:55:03"
+        "last_updated": "08/02/2026 10:55:06"
       },
       "url": "https://www.rontec-servicestations.co.uk/fuel-prices/data/fuel_prices_data.json"
     },
@@ -32522,7 +32521,7 @@
       "retailer": "Motor Fuel Group",
       "status": "success",
       "data": {
-        "last_updated": "08/02/2026 00:00:01",
+        "last_updated": "09/02/2026 00:00:01",
         "stations": [
           {
             "site_id": "gcp6cwwx0tje",
@@ -42028,7 +42027,7 @@
               "longitude": -2.983772
             },
             "prices": {
-              "E10": 129.9,
+              "E10": 130.9,
               "E5": 155.9,
               "B7": 139.9,
               "SDV": 165.9
@@ -45015,9 +45014,9 @@
               "longitude": -1.753098
             },
             "prices": {
-              "E10": 129.9,
+              "E10": 127.9,
               "E5": 155.9,
-              "B7": 139.9,
+              "B7": 138.9,
               "SDV": 165.9
             }
           },
@@ -51783,7 +51782,7 @@
       "retailer": "Tesco",
       "status": "success",
       "data": {
-        "last_updated": "07/02/2026 11:18:07",
+        "last_updated": "08/02/2026 11:18:30",
         "stations": [
           {
             "site_id": "gcx1zhq978t7",
@@ -59467,7 +59466,7 @@
       "retailer": "Shell",
       "status": "success",
       "data": {
-        "last_updated": "07/02/2026 00:00:00",
+        "last_updated": "08/02/2026 00:00:00",
         "stations": [
           {
             "site_id": "gbujt4qe0k18",
@@ -60347,7 +60346,7 @@
               "longitude": -2.561697
             },
             "prices": {
-              "B7": 139.9,
+              "B7": 141.9,
               "E10": 130.9
             }
           },
@@ -60418,7 +60417,7 @@
             },
             "prices": {
               "B7": 148.9,
-              "E10": 138.9
+              "E10": 139.9
             }
           },
           {
@@ -60459,7 +60458,7 @@
               "longitude": -2.149074
             },
             "prices": {
-              "B7": 138.9,
+              "B7": 139.9,
               "E10": 131.9
             }
           },
@@ -61285,7 +61284,7 @@
               "longitude": -0.163636
             },
             "prices": {
-              "B7": 140.9,
+              "B7": 139.9,
               "E10": 131.9
             }
           },
@@ -61481,8 +61480,8 @@
               "longitude": -0.713975
             },
             "prices": {
-              "B7": 138.9,
-              "E10": 128.9
+              "B7": 139.9,
+              "E10": 129.9
             }
           },
           {
@@ -61509,7 +61508,7 @@
               "longitude": -0.710537
             },
             "prices": {
-              "B7": 144.9,
+              "B7": 145.9,
               "E10": 134.9
             }
           },
@@ -61691,7 +61690,7 @@
               "longitude": -0.566059
             },
             "prices": {
-              "B7": 143.9,
+              "B7": 142.9,
               "E10": 135.9
             }
           },
@@ -61874,7 +61873,7 @@
             },
             "prices": {
               "B7": 140.9,
-              "E10": 132.9
+              "E10": 131.9
             }
           },
           {
@@ -61957,7 +61956,7 @@
               "longitude": -0.393936
             },
             "prices": {
-              "B7": 141.9,
+              "B7": 142.9,
               "E10": 132.9
             }
           },
@@ -62601,8 +62600,8 @@
               "longitude": -0.253687
             },
             "prices": {
-              "B7": 142.9,
-              "E10": 131.9
+              "B7": 141.9,
+              "E10": 130.9
             }
           },
           {
@@ -62839,8 +62838,8 @@
               "longitude": -0.432764
             },
             "prices": {
-              "B7": 139.9,
-              "E10": 129.9
+              "B7": 140.9,
+              "E10": 130.9
             }
           },
           {
@@ -62867,7 +62866,7 @@
               "longitude": -0.36382
             },
             "prices": {
-              "B7": 140.9,
+              "B7": 141.9,
               "E10": 131.9
             }
           },
@@ -63287,8 +63286,8 @@
               "longitude": -1.946382
             },
             "prices": {
-              "B7": 142.9,
-              "E10": 133.9
+              "B7": 141.9,
+              "E10": 132.9
             }
           },
           {
@@ -63413,7 +63412,7 @@
               "longitude": -1.928326
             },
             "prices": {
-              "B7": 139.9,
+              "B7": 140.9,
               "E10": 129.9
             }
           },
@@ -64071,8 +64070,8 @@
               "longitude": -0.736686
             },
             "prices": {
-              "B7": 148.9,
-              "E10": 139.9
+              "B7": 149.9,
+              "E10": 140.9
             }
           },
           {
@@ -64254,7 +64253,7 @@
             },
             "prices": {
               "B7": 145.9,
-              "E10": 136.9
+              "E10": 137.9
             }
           },
           {
@@ -64548,7 +64547,7 @@
             },
             "prices": {
               "B7": 138.9,
-              "E10": 128.9
+              "E10": 127.9
             }
           },
           {
@@ -64618,7 +64617,7 @@
             },
             "prices": {
               "B7": 139.9,
-              "E10": 129.9
+              "E10": 128.9
             }
           },
           {
@@ -64898,7 +64897,7 @@
             },
             "prices": {
               "B7": 139.9,
-              "E10": 129.9
+              "E10": 128.9
             }
           },
           {
@@ -64981,8 +64980,8 @@
               "longitude": -3.938721
             },
             "prices": {
-              "B7": 139.9,
-              "E10": 133.9
+              "B7": 140.9,
+              "E10": 134.9
             }
           },
           {
@@ -65653,8 +65652,8 @@
               "longitude": -0.645945
             },
             "prices": {
-              "B7": 144.9,
-              "E10": 134.9
+              "B7": 145.9,
+              "E10": 135.9
             }
           },
           {
@@ -65863,8 +65862,8 @@
               "longitude": -1.494228
             },
             "prices": {
-              "B7": 139.9,
-              "E10": 130.9
+              "B7": 140.9,
+              "E10": 131.9
             }
           },
           {
@@ -66368,7 +66367,7 @@
             },
             "prices": {
               "B7": 143.9,
-              "E10": 132.9
+              "E10": 131.9
             }
           },
           {
@@ -66493,7 +66492,7 @@
               "longitude": 0.04292
             },
             "prices": {
-              "B7": 142.9,
+              "B7": 143.9,
               "E10": 133.9
             }
           },
@@ -66508,7 +66507,7 @@
             },
             "prices": {
               "B7": 146.9,
-              "E10": 137.9
+              "E10": 138.9
             }
           },
           {
@@ -66536,7 +66535,7 @@
             },
             "prices": {
               "B7": 145.9,
-              "E10": 136.9
+              "E10": 137.9
             }
           },
           {
@@ -66563,7 +66562,7 @@
               "longitude": 0.251159
             },
             "prices": {
-              "B7": 144.9,
+              "B7": 145.9,
               "E10": 135.9
             }
           },
@@ -66704,7 +66703,7 @@
             },
             "prices": {
               "B7": 146.9,
-              "E10": 136.9
+              "E10": 137.9
             }
           },
           {
@@ -67346,7 +67345,7 @@
               "longitude": -1.438042
             },
             "prices": {
-              "E10": 123,
+              "E10": 124,
               "B7": 133,
               "E5": 134
             }
@@ -67489,9 +67488,9 @@
               "longitude": -4.228221
             },
             "prices": {
-              "E10": 124,
-              "E5": 133,
-              "B7": 133
+              "E10": 123,
+              "B7": 132,
+              "E5": 133
             }
           }
         ]
