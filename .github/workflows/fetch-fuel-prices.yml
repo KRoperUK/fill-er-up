@@ -53,7 +53,7 @@ jobs:
           git push
 
       - name: Create Release
-        uses: softprops/action-gh-release@v2.5.0
+        uses: softprops/action-gh-release@v2.6.1
         with:
           tag_name: data-${{ steps.date.outputs.date }}
           name: Fuel Prices - ${{ steps.date.outputs.date }}
@@ -68,7 +68,7 @@ jobs:
           prerelease: false
 
       - name: Update latest release
-        uses: softprops/action-gh-release@v2.5.0
+        uses: softprops/action-gh-release@v2.6.1
         with:
           tag_name: latest
           name: Latest Fuel Prices
