@@ -1,0 +1,51 @@
+name: Backfill price history
+
+# One-off: rebuild docs/price_history.json from the full release history, then
+# commit it and add it to the `latest` release. After this, the daily
+# fetch-fuel-prices workflow just appends each new day.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max releases to process (blank = all ~225)"
+        required: false
+        default: ""
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6.0.2
+
+      - uses: actions/setup-python@v6.2.0
+        with:
+          python-version: '3.14.5'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Backfill
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "${{ inputs.limit }}" ]; then
+            python price_history_builder.py backfill --limit ${{ inputs.limit }}
+          else
+            python price_history_builder.py backfill
+          fi
+
+      - name: Commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/price_history.json
+          git diff --staged --quiet || git commit -m "Backfill national price history"
+          git push
+
+      - name: Add to latest release
+        uses: softprops/action-gh-release@v3.0.0
+        with:
+          tag_name: latest
+          files: .data/price_history.json
