@@ -41,10 +41,10 @@ jobs:
       - name: Update national price history
         run: python price_history_builder.py update --feed .data/fuel_prices.json --date ${{ steps.date.outputs.date }}
 
-      - name: Build per-station history (rolling 14 days)
+      - name: Build per-station history (rolling 30 days)
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python price_history_builder.py stations --days 14
+        run: python price_history_builder.py stations --days 30
 
       - name: Copy fuel prices to docs folder
         run: |
