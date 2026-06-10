@@ -1,5 +1,5 @@
 // Use local JSON file instead of Google Cloud Storage
-const DATA_URL = `./fuel_prices.json`;
+const DATA_URL = `https://garage.kroper.uk/api/feed`;
 // Local cache settings
 const CACHE_KEY = 'fuel_prices_cache_v1';
 const MAX_CACHE_AGE_MS = 12 * 60 * 60 * 1000; // 12 hours
